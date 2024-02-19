@@ -18,7 +18,7 @@ while positiveInterger != 1:
     if (positiveInterger % 2) == 0:                                             # This verifies if is an even number
         positiveInterger = positiveInterger // 2                                # if it is an even number then we can divide by 2
     else:                                                                       # This is the path forward if it is an odd number
-        positiveInterger = (positiveInterger * 3) + 1                                              # if it is an odd number then we can multiply by 3 and add 1
+        positiveInterger = (positiveInterger * 3) + 1                           # if it is an odd number then we can multiply by 3 and add 1
 print(1)                                                                        # Print the last number: 1
 
 
