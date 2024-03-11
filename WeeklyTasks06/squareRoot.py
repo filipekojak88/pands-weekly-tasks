@@ -31,3 +31,7 @@ def nSqr () :
     print(f'The square root of {anyNo} is approx. {guess}.') 
     return guess
 nSqr()   
+# References:
+# https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+# https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html
+# Chat GPT was used to identify errors.
