@@ -3,13 +3,81 @@
 # that the text file contains.
 # Part 3: The program takes the filename from 
 # an argument # on the comand line
-# Part 4: dealing with errors.
+# Parts 4, 6 - 9: dealing with errors.
 # e.g. no argument, file does not exist,
 # is not a text file
 
+# The script references part followed by a number.
+# This is to facilitate the documentation of the steps 
+# performed to create this program. 
+# For more details see section History
+# located at the end of the program.
+
 # Author: Filipe Carvalho
 
-# Part 1: open the file:
+# Part 5:
+
+
+# import "os" from os for 4.2:
+# import os  # Part 9: Obsoleted this part. 
+
+# import "sys" from part 3, 4.1 and 4.3:             
+import sys
+
+# Here we add the function to count the E's
+# Part 2:
+def countEs (fileName):
+    # Part 6: File Not Found added here:
+    try:
+        with open(fileName, 'r') as md:
+            data = md.read()
+            qtyEs = data.count('e') + data.count('E')  # Count both lowercase and uppercase 'e'
+        return qtyEs
+    # Part 7: Added FileNotFoundError to except to be more specific
+    except FileNotFoundError:
+       # Part 48
+       return None
+# Here we add another function for the argument. 
+def argument():
+    
+    # Part 4.3 - Erro for no argument on the command line.
+    if len(sys.argv) != 2:
+        print('Error: You need to enter an argument "fileName"')
+        sys.exit(1)
+
+    # Part 3: File from an argument on the command line
+    # This part has to come after the part 4.3 to avoid Index Error
+    fileName = sys.argv[1]
+
+    # Part 4.1 - Error: no argument
+    if not fileName.endswith('.txt'):
+        print("Error: Input file must be a text file.")
+        sys.exit(1)
+
+    # Part 4.2 - Error: files does not exist_# Part 9 - Obsoleted Part 4.2:
+    # if not os.path.isfile(fileName):
+    #    print ("Error: File does not exist")
+
+        
+    # This is the return of the function argument:
+    return fileName
+# Returning the fileName variable from the argument() function
+# allows me to pass the fileName argument to countEs function:
+fileName = argument()
+  
+# 4.5: check if file is None:
+if fileName is not None:
+    qty_Es = countEs(fileName)
+    if qty_Es is not None:
+        # Here I print the quantity of e's from the file of interest.
+        print(f"The file {fileName} contains {countEs(fileName)} e(s).")
+    else: 
+        print("Error: File not found")
+
+
+# History:
+
+# Part 1 _ open the file:
 # Reference:
 # https://github.com/andrewbeattycourseware/pands-course-material/blob/main/jupyternotebooks/topic07-files.ipynb
 
@@ -18,7 +86,7 @@
 # test:
 #    print(data)
 
-# Part 2: Count characters in Python
+# Part 2 _ Count characters in Python
 # Reference:
 # https://www.toppr.com/guides/python-guide/references/methods-and-functions/methods/string/count/python-string-count/#:~:text=How%20do%20you%20count%20characters,only%20a%20single%20substring%20parameter.
 # In this part I have to add to the part 1
@@ -40,8 +108,7 @@
 # num = countEs()
 # print (num)
 
-# Part 3:
-# Take the filename from an argument
+# Part 3 _ Take the filename from an argument
 # on the comand line
 # Reference: 
 # https://moez-62905.medium.com/the-ultimate-guide-to-command-line-arguments-in-python-scripts-61c49c90e0b3
@@ -54,8 +121,7 @@
 # Test:
 # print (f'filename is {fileName}')
     
-# Part 4:
-# Errors:
+# Part 4 _ Errors:
 
 # 4.1 - Error: no argument
 # Reference: http://hplgit.github.io/primer.html/doc/pub/input/._input-solarized007.html
@@ -90,56 +156,45 @@
 #    print(f'{fileName} is of type text')
 
 
-
-
-# Part 5: Join the parts:
-
-# import "sys" from part 3, 4.1 and 4.3; 
-# import and "os" from os from 4.2
+# Part 5 _ Join the parts:
 # we start the program by importing 
 # so these can be used within the functions
 
-import os                 
-import sys
+# After running this program and testing for errors,
+# other issues were identified:
 
-# Here we add the function to count the E's
+# Part 6 _ Error File Nout Found appeared for countEs and open functions.
+# Reference: https://www.geeksforgeeks.org/why-am-i-getting-a-filenotfounderror-in-python/
+# try:
+#    file1 = open ('mobydick.txt')
+# except:
+#    print("file not found")
 
-# Here we add another function for the argument. 
-def argument():
-    # Part 3: File from an argument on the command line
-    fileName = sys.argv[1]
+# Part 7 _ When testing for file not file does not exist.
+# the program was printing three messages:
+# Error: File does not exist, file not found, 
+# The file mobydicc.txt. contains None e(s).
+# Consulting Chat GPT on this issue it was found
+# that countEs needs FileNotFoundError to be more specific.
+# add a check if fileName is none.
+# Reference: 
+# For FileNotFoundError: https://docs.python.org/3/library/exceptions.html
+# For returning None: https://realpython.com/python-return-statement/#returning-none-explicitly
 
-    # Part 4.1 - Error: no argument
-    if not fileName.endswith('.txt'):
-        print("Error: Input file must be a text file.")
-        sys.exit(1)
-
-    # Part 4.2 - Error: files does not exist
-    if not os.path.isfile(fileName):
-        print ("Error: File does not exist")
-
-    # Part 4.3 - Erro for no argument on the command line.
-    if len(sys.argv) != 2:
-        print('Error: You need to enter an argument "fileName"')
-        sys.exit(1)
-    
-    # This is the return of the function argument:
-    return fileName
-# Returning the fileName variable from the argument() function
-# allows me to pass the fileName argument to countEs function:
-fileName = argument()
-
-# Part 2 (Part 1 was already added into Part 2):
-def countEs (fileName):
-    with open(fileName, 'r') as md:
-        data = md.read()
-        qtyEs = data.count('e') + data.count('E')  # Count both lowercase and uppercase 'e'
-    return qtyEs
-    
-
-
-# Here I print the quantity of e's from the file of interest.
-print(f"The file {fileName} contains {countEs(fileName)} e(s)")
+# Part 8 _ after applying the corrections from Part 7,
+# there were still three messages appearing:
+# Error: File does not exist, file not found,
+# Error: File not found.
+# To ensure that the message appears just once
+# the print statement from inside the countES function
+# will be removed.
+# support from Chat GPT
+        
+# Part 9 _ still appearing two messages after Part 8 implemented:
+# Error: File does not exist,
+# Error: File not found.
+# To sort his issue I just had to remove the Part 4.2
+# as it is already covered in section Part 7.
 
 
 # Source of raw data for mobydick.txt:
