@@ -16,7 +16,6 @@ plt.title("Random Hist")
 plt.xlabel("Number")
 plt.ylabel("Occurrence")
 plt.legend()
-plt.show()
 
 # Reference: Programming and Scripting Lab Tope 08-plotting - Exercise 9
 xpoints = np.array(range (1,10))
