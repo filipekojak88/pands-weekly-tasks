@@ -28,10 +28,10 @@ xpoints = np.array(range (1,10))
 # add the numbers from the array to the power of 3
 hpoints = xpoints ** 3 # y is equal x to the power of 3
 
-# Plot on the same chart of the histogram a line
+# Plot on the same chart a line
 # with the numbers from the array in the x axis and 
 # the second array with numbers calculated to the power of 3 in the y axis 
-# format with colour blue with and label
+# format with colour blue and label
 # Add legend
 plt.plot(xpoints, hpoints, color='b',label = "h(x) = x ^ 3")
 plt.legend()
