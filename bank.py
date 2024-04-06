@@ -1,9 +1,9 @@
-# bank.py
+# Program bank.py
 # This program:
 # - prompt the user and read in two money amounts (in cent)
 # - add the two amounts 
 # - print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
-# author: Filipe Carvalho
+# Author: Filipe Carvalho
 
 # First calculate request the two amounts to be input
 
