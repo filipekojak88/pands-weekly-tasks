@@ -15,6 +15,12 @@ There were 8 tasks that were completed throught the Programming and Scripting co
 
 ### Weekly Tasks 1: helloworld.py
 
+The program helloworld.py was the first program created by myself during this course. This is a very simple program that was created using the print() function to display a string "Hello World!" when this program is run by the user. 
+
+Reference:
+https://www.learnpython.org/en/Hello,_World!
+https://cs.stanford.edu/people/nick/py/python-print.html
+https://s3-us-west-2.amazonaws.com/python-notes/a-whirlwind-tour-of-python-2.pdf
 
 ### Weekly Tasks 2: bank.py
 
