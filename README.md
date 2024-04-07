@@ -69,7 +69,21 @@ https://stackoverflow.com/questions/70258603/how-can-i-dynamically-mask-all-digi
 
 ### Weekly Tasks 4: [collatz.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/collatz.py)
 
+The collatz.py program illustrates the calculation process for the [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), which is a mathematic problem that is considered quite famous for not being able to be resolved by the mathematicians as the conjecture has been proved to be held for all positive integers up to 2.95 x 10 ^ 20, but nobody was able to come up with a general proof. This program requests that a user inputs any positive integer and check if the number is even or odd. If the number is even then the program divides the number by 2. But if the number is odd then the number is multiplied by 3 and added one. As the numbers are generated from the conditional and subsequent calculation then these are stored in a sequence and returned into the loop to redo the conditional check and calculation until the final result ends in 1.
+
+
+#### References:
+
 https://www.w3schools.com/python/python_operators.asp
+https://en.wikipedia.org/wiki/Collatz_conjecture
+https://www.w3schools.com/python/python_conditions.asp
+https://realpython.com/python-while-loop/
+https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+https://medium.com/@chakshugupta774/exploring-the-collatz-conjecture-with-python-7c5d9f31d233
+https://www.toppr.com/guides/python-guide/examples/python-examples/decision-making-and-loops/positive-negative-zero/python-program-check-number-positive-negative-0/#:~:text=Python%20tests%20whether%20a%20number,Otherwise%2C%20it%20will%20be%20negative.
+https://www.toppr.com/guides/python-guide/examples/python-examples/python-program-to-check-if-a-number-is-odd-or-even/#:~:text=If%20a%20number%20is%20completely,then%20the%20number%20is%20odd.
+https://stackoverflow.com/questions/36843103/while-loop-with-if-else-statement-in-python
+https://www.geeksforgeeks.org/python-printing-string-with-double-quotes/
 
 ###  Weekly Tasks 5: [weekday.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/weekday.py)
 
