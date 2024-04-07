@@ -8,19 +8,21 @@
 # the program ends if the current value is one.
 # author: Filipe Carvalho
 
-                                                 
-positiveInterger = int(input('Enter a positive integer: '))                 # Propmt user to input a positive value
-while positiveInterger < 0:                                                 # This while loop is to ensure that a positive value is input by the user
-    print ('This value is negative.')                                       # If the user enters a negative value then he is notified about that
-    positiveInterger = int(input('Enter a \"Positive\"integer: '))          # The user is then requested to enter a positive integer value
+# Prompt user to input a positive value                                                
+positive_integer = int(input('Enter a positive integer: '))    
+# This while loop is to ensure that a positive value is input by the user
+while positive_integer <= 0:                                                 
+    print ('This value is not positive.')                                       # If the user enters a negative value or 0 then he is notified about that
+    positive_integer = int(input('Please enter a \"Positive\"integer: '))       # The user is then requested to enter a positive integer value
 
-while positiveInterger != 1:                                                    # This while loop generates new values until the value is 1
-    print (positiveInterger)                                                    # Here the values that was initiated and generated in the loop are printed
-    if (positiveInterger % 2) == 0:                                             # This verifies if it is an even number by comparing to 0 the remainder of a division by 2
-        positiveInterger = positiveInterger // 2                                # and if it is an even number then divide by 2
-    else:                                                                       # but if it is not an even number then this is the path forward if it is an odd number
-        positiveInterger = (positiveInterger * 3) + 1                           # if it is an odd number then it can be multiplied by 3 and add 1
-print(1)                                                                        # Print the last number: 1
+# This while loop generates new values until the value is 1
+while positive_integer != 1:                                                    
+    print (positive_integer, end=' ')                                           # Here the values that was initiated and generated in the loop are printed
+    if (positive_integer % 2) == 0:                                             # This verifies if it is an even number by comparing to 0 the remainder of a division by 2
+        positive_integer = positive_integer // 2                                # it divides the value by 2
+    else:                                                                       # but if it is not an even number then this is the path forward for an odd number
+        positive_integer = (positive_integer * 3) + 1                           # it multiplies the value by 3 and add 1
+print(positive_integer)                                                         # Print the last number in the sequence, 1
 
 # End of the program
 
