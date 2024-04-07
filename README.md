@@ -13,7 +13,7 @@ To understand better the tasks have a look at the section About These Tasks belo
 There were 8 tasks that were completed throught the Programming and Scripting course and the details of each task is described under the headings below.
 
 
-### Weekly Tasks 1: helloworld.py
+### Weekly Tasks 1: [helloworld.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/helloworld.py)
 
 The program helloworld.py was the first program created by myself during this course. This is a very simple program that was created using the print() function to display a string "Hello World!" when this program is run by the user. 
 
@@ -24,7 +24,7 @@ https://www.learnpython.org/en/Hello,_World!
 https://cs.stanford.edu/people/nick/py/python-print.html
 https://s3-us-west-2.amazonaws.com/python-notes/a-whirlwind-tour-of-python-2.pdf
 
-### Weekly Tasks 2: bank.py
+### Weekly Tasks 2: [bank.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/bank.py)
 
 The program bank.py is a program that when executed it displays a message for the user to enter two amounts in cents. However, the value must be an interger. For instance, €10.33 should be input as 1033. After the two values are entered by the user then the program calculates and output the sum of the two values.
 The program was created to first sum up the two values and then split the values into two parts. The first part is the interger part (using the interger division operator in Python // to divide the interger part of the number by 100) and the second part is the decimal part (using the operator % to return the remainder of a division by 100). Finally the two parts (interger and decimal) are printed out via the function print () by concatenating both parts using an f string formatting to interpolate the two values within a string.
@@ -42,22 +42,22 @@ https://www.askpython.com/python/string/02d-in-python
 https://atlantictu-my.sharepoint.com/:v:/g/personal/andrew_beatty_atu_ie/ETmXpdhA8etHobd2Vm8ozZMBWYqHaNq0Cu94nHR4pOyz9A?e=6Tnuf3&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopiedShareExpTreatment%2Eview
 https://ioflood.com/blog/python-integer-division-how-to-use-the-floor-operator/#:~:text=Python%20provides%20two%20types%20of,in%203%20(integer%20division)
 
-### Weekly Tasks 3: accounts.py
+### Weekly Tasks 3: [accounts.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/accounts.py)
 
 
-### Weekly Tasks 4: collatz.py
+### Weekly Tasks 4: [collatz.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/collatz.py)
 
 
-###  Weekly Tasks 5: weekday.py
+###  Weekly Tasks 5: [weekday.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/weekday.py)
 
 
-### Weekly Tasks 6: squareroot.py
+### Weekly Tasks 6: [squareroot.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/squareRoot.py)
 
 
-### Weekly Tasks 7: es.py and moby-dick.txt
+### Weekly Tasks 7: [es.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/es.py) and [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt)
 
 
-### Weekly Tasks 8: plottask.py
+### Weekly Tasks 8: [plottask.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/plottask.py)
 
 
 ## Use of these tasks
