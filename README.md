@@ -87,11 +87,17 @@ https://www.geeksforgeeks.org/python-printing-string-with-double-quotes/
 
 ###  Weekly Tasks 5: [weekday.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/weekday.py)
 
+This program was developed to determine if the current date is a weekday or a weekend. Datetime object was imported from datetime module and used in conjunction with the function now() to determine today's date. As this program just take into consideration two groups weekday and weekend, then weekend was defined in the program as it is a group with just to elements "Saturday" and "Sunday". The program then uses strftime() method from datetime module to obtain the day's name from today's date and uses %A to ensure that the full name is returned. Finally the program verifies if the today's day is the weekend group. If it is in the weekend group then it outputs a message confirming it is weekend. Otherwise, it is a weekday and outputs a message confirming it is a weekday.
 
 
 #### References:
 
 https://pynative.com/python-get-the-day-of-week/#h-get-the-weekday-name-of-a-date-using-strftime-method
+https://docs.python.org/3/library/datetime.html
+https://realpython.com/python-lists-tuples/
+https://www.datacamp.com/tutorial/modules-in-python
+https://docs.python.org/3/tutorial/modules.html
+https://pythontic.com/datetime/date/weekday
 
 ### Weekly Tasks 6: [squareroot.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/squareRoot.py)
 
