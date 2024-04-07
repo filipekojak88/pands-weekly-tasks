@@ -25,6 +25,7 @@ https://s3-us-west-2.amazonaws.com/python-notes/a-whirlwind-tour-of-python-2.pdf
 ### Weekly Tasks 2: bank.py
 
 
+
 ### Weekly Tasks 3: accounts.py
 
 
