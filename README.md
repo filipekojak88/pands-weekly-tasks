@@ -2,9 +2,9 @@
 This repository contains the weekly tasks that were completed as part of the Programming and Scripting classes in ATU with the lecturer Andrew Beatty.
 These tasks display several Python scripts that were created to demonstrate the skills that were developed during the course.
 This README has been written with [Github's documentation on READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind.
-MarkDown was used in this README file and was based on [in GitHub's Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+MarkDown was used in this README file and was based on [GitHub's Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-## Get Started 
+## Get Started
 
 To understand better the tasks have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimse of what the task is about then you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.
 
@@ -41,9 +41,31 @@ https://www.w3schools.com/python/python_string_formatting.asp
 https://www.askpython.com/python/string/02d-in-python
 https://atlantictu-my.sharepoint.com/:v:/g/personal/andrew_beatty_atu_ie/ETmXpdhA8etHobd2Vm8ozZMBWYqHaNq0Cu94nHR4pOyz9A?e=6Tnuf3&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopiedShareExpTreatment%2Eview
 https://ioflood.com/blog/python-integer-division-how-to-use-the-floor-operator/#:~:text=Python%20provides%20two%20types%20of,in%203%20(integer%20division)
+https://www.w3schools.com/python/python_strings_concatenate.asp
 
 ### Weekly Tasks 3: [accounts.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/accounts.py)
 
+This accounts.py program is a Python script that mimics the security approach that is used by banks when displaying the account number to users.
+In this program the users are prompted to input their account number and the program displays the last four digits of the account number while replacing the other digits by X.
+The program workflow follow the steps: 
+
+1 - User is prompt to input their account number.
+2 - The program converts the number into a string and counts the number of characters.
+3 - It calculates the number of characters that need to be convert to 'X" by subtracting 4 from the amount of characters.
+4 - It isolates the last 4 digits of the account number.
+5 - It converts all the characters minus the last 4 to "X".
+6 - The it outputs the modified account number with all characters displaying X except by the last 4 digits which are displayed in numbers as it appears in the account number.
+
+This program also accepts an account number of any number of characters.
+
+
+#### References:
+
+https://realpython.com/python-string-formatting/
+https://www.w3schools.com/python/python_strings_slicing.asp
+https://www.w3schools.com/python/python_strings_concatenate.asp
+https://www.w3schools.com/python/gloss_python_string_length.asp
+https://stackoverflow.com/questions/70258603/how-can-i-dynamically-mask-all-digits-except-the-last-4-always
 
 ### Weekly Tasks 4: [collatz.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/collatz.py)
 

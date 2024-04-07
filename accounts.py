@@ -1,4 +1,4 @@
-# python accounts.py
+# Program accounts.py
 # This programs reads in a 10 characters account number 
 # and outputs the account number with the last 4 digits displaying
 # and the first 6 digits replaced with Xs
@@ -19,3 +19,5 @@ noCharactersToChange = noCharacters - 4                 # Find how many characte
 partNo = accountString[noCharactersToChange:noCharacters]     # Isolate the 4 last digit
 partX = noCharactersToChange*'X'                              # From the number of characters that will have to be changed to X and multiply by X
 print (partX+partNo)                                          # Print the account with the part in X and the last four digits as number.
+
+# End of the program
