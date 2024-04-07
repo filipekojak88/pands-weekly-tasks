@@ -1,7 +1,7 @@
+# Program weekday.py
 # This program reads in the day that is today
 # and outputs whether or not is a weekday.
 # Author: Filipe Carvalho
-# Website used: https://pynative.com/python-get-the-day-of-week/#h-get-the-weekday-name-of-a-date-using-strftime-method
 
 #import datetime
 from datetime import datetime
@@ -10,14 +10,19 @@ from datetime import datetime
 dt = datetime.now()
 # print('Datetime is: ', dt)
 
-#get weekday name
-# print ('Day of the week is:', dt.strftime('%A'))
-
-# separate the days of the week 
+# define the days of the weekend
+# the group of weekend is easier 
+# to define as there are just two days
 weekend = ['Saturday','Sunday']
 
-# use if and else to confirm if it is weekend or weekday.
+# use if to confirm if today's day is a weekend
 if dt.strftime('%A') in weekend:
+   # print message that's a weekend.
    print('It is the weekend, yay!')
+# else is used in case the previous check is not true,
+# which the day then would be a weekday.
 else:
+   # print message that's a weekday.
    print ('Yes, unfortunately today is a weekday.')
+
+# End of the program

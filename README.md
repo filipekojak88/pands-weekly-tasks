@@ -88,6 +88,11 @@ https://www.geeksforgeeks.org/python-printing-string-with-double-quotes/
 ###  Weekly Tasks 5: [weekday.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/weekday.py)
 
 
+
+#### References:
+
+https://pynative.com/python-get-the-day-of-week/#h-get-the-weekday-name-of-a-date-using-strftime-method
+
 ### Weekly Tasks 6: [squareroot.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/squareRoot.py)
 
 
