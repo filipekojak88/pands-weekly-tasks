@@ -69,6 +69,7 @@ https://stackoverflow.com/questions/70258603/how-can-i-dynamically-mask-all-digi
 
 ### Weekly Tasks 4: [collatz.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/collatz.py)
 
+https://www.w3schools.com/python/python_operators.asp
 
 ###  Weekly Tasks 5: [weekday.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/weekday.py)
 
