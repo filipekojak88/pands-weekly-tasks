@@ -17,14 +17,30 @@ There were 8 tasks that were completed throught the Programming and Scripting co
 
 The program helloworld.py was the first program created by myself during this course. This is a very simple program that was created using the print() function to display a string "Hello World!" when this program is run by the user. 
 
-Reference:
+
+#### References:
+
 https://www.learnpython.org/en/Hello,_World!
 https://cs.stanford.edu/people/nick/py/python-print.html
 https://s3-us-west-2.amazonaws.com/python-notes/a-whirlwind-tour-of-python-2.pdf
 
 ### Weekly Tasks 2: bank.py
 
+The program bank.py is a program that when executed it displays a message for the user to enter two amounts in cents. However, the value must be an interger. For instance, €10.33 should be input as 1033. After the two values are entered by the user then the program calculates and output the sum of the two values.
+The program was created to first sum up the two values and then split the values into two parts. The first part is the interger part (using the interger division operator in Python // to divide the interger part of the number by 100) and the second part is the decimal part (using the operator % to return the remainder of a division by 100). Finally the two parts (interger and decimal) are printed out via the function print () by concatenating both parts using an f string formatting to interpolate the two values within a string.
 
+
+#### References:
+
+https://docs.python.org/3/library/functions.html#input
+https://www.w3schools.com/python/ref_func_input.asp
+https://realpython.com/python-f-strings/
+https://realpython.com/python-string-formatting/
+https://www.programiz.com/python-programming/methods/built-in/int
+https://www.w3schools.com/python/python_string_formatting.asp
+https://www.askpython.com/python/string/02d-in-python
+https://atlantictu-my.sharepoint.com/:v:/g/personal/andrew_beatty_atu_ie/ETmXpdhA8etHobd2Vm8ozZMBWYqHaNq0Cu94nHR4pOyz9A?e=6Tnuf3&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopiedShareExpTreatment%2Eview
+https://ioflood.com/blog/python-integer-division-how-to-use-the-floor-operator/#:~:text=Python%20provides%20two%20types%20of,in%203%20(integer%20division)
 
 ### Weekly Tasks 3: accounts.py
 
@@ -64,6 +80,7 @@ Any other activity has been entirely completed by the author.
 ## Author
 
 [Filipe Carvalho](https://www.linkedin.com/in/filipe-carvalho-8146232a/)
+
 I am a Quality Engineer with 10 years of experience in Automotive and Medical Device Industry.
 I am a Production Mechanical Engineer with a Master Science degree in Management from Trinity College.
 As a form of further develop myself and prepare to dive into AI in the future, I started in 2024 the course of Data Analytics in ATU.

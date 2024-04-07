@@ -5,7 +5,7 @@
 # - print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
 # Author: Filipe Carvalho
 
-# First calculate request the two amounts to be input
+# Firstly, request the two amounts to be input
 
 amount1 = int(input ("Please enter the first amount (in cents): "))
 amount2 = int(input("Please enter the second amount (in cents): "))
@@ -21,3 +21,5 @@ decimalpart = total % 100
 # Note: As we are talking about money then we have to specify the number of decimals after dot to be 2 ...
 # ... otherwise if we have a total of 500 then the value printed will be €5.0.
 print (f'The sum of these is: €{intergerpart}.{decimalpart:02d}')
+
+# End of the program
