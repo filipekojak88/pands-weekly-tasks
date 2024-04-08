@@ -53,6 +53,7 @@ This program was developed to determine if the current date is a weekday or a we
 ### Weekly Tasks 6: [squareroot.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/squareRoot.py)
 
 
+
 ### Weekly Tasks 7: [es.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/es.py) and [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt)
 
 
@@ -154,3 +155,7 @@ https://www.datacamp.com/tutorial/modules-in-python
 https://docs.python.org/3/tutorial/modules.html
 
 https://pythontic.com/datetime/date/weekday
+
+https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+
+https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html
