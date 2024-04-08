@@ -52,6 +52,7 @@ This program was developed to determine if the current date is a weekday or a we
 
 ### Weekly Tasks 6: [squareroot.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/squareRoot.py)
 
+This program was based on [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method) for square root estimation. The squareroot.py program calculates and returns the approximate square root of a positive number that has been input by the user. The program checks if the value is positive and if it is not then it displays a message to the user that a positive number is required and the program terminates. The main part of the program is the loop used to refine the approximation of the square root. The program starts with a guess which is the number itself and goes improving the guess at each iteration until the change between successive approximations is below a determined limit, which demonstrates that the estimation is accurate. 
 
 
 ### Weekly Tasks 7: [es.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/es.py) and [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt)
@@ -156,6 +157,8 @@ https://docs.python.org/3/tutorial/modules.html
 
 https://pythontic.com/datetime/date/weekday
 
+https://en.wikipedia.org/wiki/Newton%27s_method
+
 https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 
 https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html
@@ -174,4 +177,4 @@ https://www.simplilearn.com/tutorials/python-tutorial/float-in-python#:~:text=Fl
 
 https://pieriantraining.com/counting-in-a-python-loop-a-beginners-guide/#:~:text=To%20count%20down%20with%20a,and%20decrement%20it%20by%20one.&text=In%20this%20example%2C%20we%20start%20with%20a%20counter%20value%20of%205
 
-
+https://chat.openai.com/chat
