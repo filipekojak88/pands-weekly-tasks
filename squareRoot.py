@@ -1,17 +1,17 @@
 # Program squareroot.py
 # This program reads in a number 
-# and output the approximatelly square root of it.
-# using Newton's method
-# author: Filipe Carvalho
+# and output the approximatelly square root of it
+# using Newton's method.
+# Author: Filipe Carvalho
 
 # function n_sqr is defined.
 def sqrt ():
     
     # Input the number that will have its squareroot guessed
-    # number has to be float type
+    # number is transformed to a float type
     positive_number = float(input('Please enter a positive number:'))
 
-    # Adding a if to ensure input is only acceptable if it is positive
+    # this is to ensure the input is positive
     if positive_number <= 0:
         print('Please enter a positive number.')
         return None
@@ -19,23 +19,25 @@ def sqrt ():
     # Assuming that the sqrt of the guessed number as being itself
     approximation = positive_number
 
-    # This is to count the number of iterations
+    # This is to start the counter for the number of iterations
     iteration_count = 0
 
-    # While loop to guess the square root
+    # While loop to guess the square root based on Newton's method 
     while True:
-        # Approximated to a closer estimation
+        # Approximate to a closer estimation
         new_approximation = 0.5 * (approximation + positive_number/approximation) 
-        # Verifying if there is closeness       
+        # Verifying if there is closeness to the previous value      
         if (abs(new_approximation - approximation)<1e-10):             
             break
-        # Update guess
-        approximation = new_approximation   
-        # Add 1 for each interation.                       
+        # Update the approximation and iteration counter.
+        approximation = new_approximation                     
         iteration_count += 1
-    # Then the output would be:
+    # Output the result
     print(f'The square root of {positive_number} is approx. {new_approximation}.') 
-    return new_approximation
+    
+    return approximation
+
+# Call the sqrt function to execute the square root calculation.
 sqrt()   
 
 # End of the program

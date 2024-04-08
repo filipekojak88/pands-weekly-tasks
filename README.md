@@ -159,3 +159,6 @@ https://pythontic.com/datetime/date/weekday
 https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 
 https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html
+
+https://medium.com/@instailyacademy/best-practices-for-variable-assignments-in-python-dd63c93bd68f
+
