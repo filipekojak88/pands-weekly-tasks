@@ -162,3 +162,16 @@ https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/Newton
 
 https://medium.com/@instailyacademy/best-practices-for-variable-assignments-in-python-dd63c93bd68f
 
+https://realpython.com/defining-your-own-python-function/
+
+https://www.scaler.com/topics/python-scientific-notation/
+
+https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3
+
+https://www.askpython.com/python/python-return-statement
+
+https://www.simplilearn.com/tutorials/python-tutorial/float-in-python#:~:text=Float%20is%20a%20function%20or,architecture%20subject%20to%20available%20memory
+
+https://pieriantraining.com/counting-in-a-python-loop-a-beginners-guide/#:~:text=To%20count%20down%20with%20a,and%20decrement%20it%20by%20one.&text=In%20this%20example%2C%20we%20start%20with%20a%20counter%20value%20of%205
+
+
