@@ -30,12 +30,14 @@ This accounts.py program is a Python script that mimics the security approach th
 In this program the users are prompted to input their account number and the program displays the last four digits of the account number while replacing the other digits by X.
 The program workflow follow the steps: 
 
-1 - User is prompt to input their account number.
-2 - The program converts the number into a string and counts the number of characters.
-3 - It calculates the number of characters that need to be convert to 'X" by subtracting 4 from the amount of characters.
-4 - It isolates the last 4 digits of the account number.
-5 - It converts all the characters minus the last 4 to "X".
-6 - The it outputs the modified account number with all characters displaying X except by the last 4 digits which are displayed in numbers as it appears in the account number.
+<ol>
+<li>User is prompt to input their account number</li>
+<li>The program converts the number into a string and counts the number of characters</li>
+<li>It calculates the number of characters that need to be convert to 'X" by subtracting 4 from the amount of characters</li>
+<li>It isolates the last 4 digits of the account number</li>
+<li>It converts all the characters minus the last 4 to "X"</li>
+<li>The it outputs the modified account number with all characters displaying X except by the last 4 digits which are displayed in numbers as it appears in the account number</li>
+</ol>
 
 This program also accepts an account number of any number of characters.
 
