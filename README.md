@@ -137,9 +137,9 @@ https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-t
 
 https://medium.com/@chakshugupta774/exploring-the-collatz-conjecture-with-python-7c5d9f31d233
 
-https://www.toppr.com/guides/python-guide/examples/python-examples/decision-making-and-loops/positive-negative-zero/python-program-check-number-positive-negative-0/#:~:text=Python%20tests%20whether%20a%20number,Otherwise%2C%20it%20will%20be%20negative.
+https://www.toppr.com/guides/python-guide/examples/python-examples/decision-making-and-loops/positive-negative-zero/python-program-check-number-positive-negative-0/#:~:text=Python%20tests%20whether%20a%20number,Otherwise%2C%20it%20will%20be%20negative
 
-https://www.toppr.com/guides/python-guide/examples/python-examples/python-program-to-check-if-a-number-is-odd-or-even/#:~:text=If%20a%20number%20is%20completely,then%20the%20number%20is%20odd.
+https://www.toppr.com/guides/python-guide/examples/python-examples/python-program-to-check-if-a-number-is-odd-or-even/#:~:text=If%20a%20number%20is%20completely,then%20the%20number%20is%20odd
 
 https://stackoverflow.com/questions/36843103/while-loop-with-if-else-statement-in-python
 
@@ -178,3 +178,29 @@ https://www.simplilearn.com/tutorials/python-tutorial/float-in-python#:~:text=Fl
 https://pieriantraining.com/counting-in-a-python-loop-a-beginners-guide/#:~:text=To%20count%20down%20with%20a,and%20decrement%20it%20by%20one.&text=In%20this%20example%2C%20we%20start%20with%20a%20counter%20value%20of%205
 
 https://chat.openai.com/chat
+
+https://github.com/andrewbeattycourseware/pands-course-material/blob/main/jupyternotebooks/topic07-files.ipynb
+
+https://www.toppr.com/guides/python-guide/references/methods-and-functions/methods/string/count/python-string-count/#:~:text=How%20do%20you%20count%20characters,only%20a%20single%20substring%20parameter
+
+https://moez-62905.medium.com/the-ultimate-guide-to-command-line-arguments-in-python-scripts-61c49c90e0b3
+
+https://www.tutorialspoint.com/python/python_command_line_arguments.htm 
+
+http://hplgit.github.io/primer.html/doc/pub/input/._input-solarized007.html
+
+https://atu-main-mdl-euwest1.s3.eu-west-1.amazonaws.com/c4/b6/c4b699e20a2c8376efcb7ca04eb1cf7097617a4c?response-content-disposition=inline%3B%20filename%3D%22Lab%2007%20files.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWRN6GJFLWCMOG6H7%2F20240313%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20240313T201553Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21547&X-Amz-Signature=7ff80859a42e4e5bc6a41449fa02f40dad7ab3232b20bd386ee69b48204167d4
+
+https://stackoverflow.com/questions/5899497/how-can-i-check-the-extension-of-a-file
+
+https://www.geeksforgeeks.org/why-am-i-getting-a-filenotfounderror-in-python/
+
+https://docs.python.org/3/library/exceptions.html
+
+https://realpython.com/python-return-statement/#returning-none-explicitly
+
+https://gist.github.com/StevenClontz/4445774
+
+https://www.theserverside.com/tip/What-does-the-Python-if-name-equals-main-construct-do#:~:text=to%20the%20console.-,The%20if%20__name__%20%3D%3D%20%22__main__%22%3A,it%20would%20not%20execute%20automatically.
+
+
