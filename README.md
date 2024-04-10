@@ -55,7 +55,13 @@ This program was developed to determine if the current date is a weekday or a we
 This program was based on [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method) for square root estimation. The squareroot.py program calculates and returns the approximate square root of a positive number that has been input by the user. The program checks if the value is positive and if it is not then it displays a message to the user that a positive number is required and the program terminates. The main part of the program is the loop used to refine the approximation of the square root. The program starts with a guess which is the number itself and goes improving the guess at each iteration until the change between successive approximations is below a determined limit, which demonstrates that the estimation is accurate. 
 
 
-### Weekly Tasks 7: [es.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/es.py) and [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt)
+### Weekly Tasks 7: [es.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/es.py) 
+
+The program es.py was created to count the number of times that the letter 'e' (lowercase and uppercase) appears in a text file. It was set up so as the user provides the file name on the command-line. The program was designed with two functions count_e(file_name) and main():
+1 - The first one opens the file and reads it, counting and returning the total number of lowercase and uppercase 'e' found in the text file. Here, there is a check to confirm that the file name provided exists and if it does not exist then an error message is provided and the program terminates.
+2 - The second function works as an entry point. It first verifies that a command-line argument was typed in by the user and that the file is a '.txt' extension. Any error found regarding these two verifications are fed back to the user through an error message and program terminates. If everything works well then the count of 'e'(lowercase and uppercase) for the input file is output by the program. 
+
+Note: To test this program the text file [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt) was added to pands-weekly-tasks and a total of 59646 characters "e" (uppercase and lowercase) were identified by running the program es.py.
 
 
 ### Weekly Tasks 8: [plottask.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/plottask.py)
@@ -202,5 +208,3 @@ https://realpython.com/python-return-statement/#returning-none-explicitly
 https://gist.github.com/StevenClontz/4445774
 
 https://www.theserverside.com/tip/What-does-the-Python-if-name-equals-main-construct-do#:~:text=to%20the%20console.-,The%20if%20__name__%20%3D%3D%20%22__main__%22%3A,it%20would%20not%20execute%20automatically.
-
-
