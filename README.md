@@ -6,7 +6,7 @@ MarkDown was used in this README file and was based on [GitHub's Documentation](
 
 ## Get Started
 
-<div style="text-align: right">To understand better the tasks have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimse of what the task is about then you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.</div>
+<div style="text-align: justify">To understand better the tasks have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimse of what the task is about then you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.</div>
 
 ## About These Tasks
 
