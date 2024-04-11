@@ -1,4 +1,5 @@
 # Repository: pands-weekly-tasks
+
 This repository contains the weekly tasks that were completed as part of the Programming and Scripting classes in ATU with the lecturer Andrew Beatty.
 These tasks display several Python scripts that were created to demonstrate the skills that were developed during the course.   
 This README has been written with [Github's documentation on READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind.   
@@ -64,6 +65,7 @@ The program es.py was created to count the number of times that the letter 'e' (
 <li>The first one opens the file and reads it, counting and returning the total number of lowercase and uppercase 'e' found in the text file. Here, there is a check to confirm that the file name provided exists and if it does not exist then an error message is provided and the program terminates.</li>
 <li>The second function works as an entry point. It first verifies that a command-line argument was typed in by the user and that the file is a '.txt' extension. Any error found regarding these two verifications are fed back to the user through an error message and program terminates. If everything works well then the count of 'e'(lowercase and uppercase) for the input file is output by the program.</li> 
 </ol>
+
 Note: To test this program the text file [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt) was added to pands-weekly-tasks and a total of 59646 characters "e" (uppercase and lowercase) were identified by running the program es.py.
 
 
@@ -209,8 +211,28 @@ https://docs.python.org/3/library/exceptions.html
 
 https://realpython.com/python-return-statement/#returning-none-explicitly
 
+https://www.theserverside.com/tip/What-does-the-Python-if-name-equals-main-construct-do#:~:text=to%20the%20console.-,The%20if%20__name__%20%3D%3D%20%22__main__%22%3A,it%20would%20not%20execute%20automatically.
+
 https://gist.github.com/StevenClontz/4445774
 
-https://www.theserverside.com/tip/What-does-the-Python-if-name-equals-main-construct-do#:~:text=to%20the%20console.-,The%20if%20__name__%20%3D%3D%20%22__main__%22%3A,it%20would%20not%20execute%20automatically.
+https://numpy.org/doc/stable/user/absolute_beginners.html
+
+https://matplotlib.org/stable/tutorials/pyplot.html
+
+https://numpy.org/doc/stable/reference/random/generated/numpy.random.seed.html
+
+https://numpy.org/doc/stable/reference/random/index.html
+
+https://numpy.org/devdocs/reference/random/generated/numpy.random.normal.html
+
+https://www.w3schools.com/python/matplotlib_histograms.asp
+
+https://matplotlib.org/stable/users/explain/quick_start.html#
+
+https://stackoverflow.com/questions/5484922/secondary-axis-with-twinx-how-to-add-to-legend
+
+https://matplotlib.org/2.0.2/api/legend_api.html 
+
+https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.tick_params.html
 
 https://atu-main-mdl-euwest1.s3.eu-west-1.amazonaws.com/4a/2f/4a2fd8d23088f9d87b69902e5a31076629cf05cb?response-content-disposition=inline%3B%20filename%3D%22Lab%2008%20matplotlb.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWRN6GJFLWCMOG6H7%2F20240411%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20240411T000822Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21578&X-Amz-Signature=cbe2d3cf087c51d671525a4791517ee76ee5bdc276b3cede73b871bd95c9aafc 

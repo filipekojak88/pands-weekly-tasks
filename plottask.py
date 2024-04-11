@@ -15,11 +15,11 @@ sample= np.random.normal(loc=5, scale = 2, size = 1000)
 
 
 
-# Plot the histogram of the samples
-plt.hist(sample, bins=30, color='y', alpha=0.7, label="Normal Distribution")
+# Plot the histogram of the samples using first y-axis
+plt.hist(sample, bins=30, color='y', alpha=0.7, label="Normal Distribution (Left Y-Axis)")
 plt.title("Normal Distribution and Function Plot")
 plt.xlabel("Value")
-plt.ylabel("Occurrence")
+plt.ylabel("Frequency")
 
 # Add a secondary y-axis to improve visitbility between historgram and line plot
 ax1 = plt.gca()
@@ -30,10 +30,10 @@ x_points = np.array(range(0,11))
 # calculate h(x) = x ^ 3 for each x value
 h_points = x_points ** 3
 
-# Plot of the function h(x) = x ^ 3 on same graphic
-ax2.plot(x_points, h_points, color='b',label = "h(x) = x^3 (Right Y-Axis)")    # label for identification of secondary y-axis
-ax2.set_ylabel('h(x) Value')                                                   # set ylabel
-ax2.tick_params(axis='y', labelcolor='b')                                      # add label color for the secondary axis y
+# Plot of the function h(x) = x ^ 3 on same graphic using second y-axis
+ax2.plot(x_points, h_points, color='b',label = "h(x) = x^3 (Right Y-Axis)")    
+ax2.set_ylabel('h(x) Value')                                                   
+ax2.tick_params(axis='y', labelcolor='b')                                      
 
 # Get handles and labels for both axes
 handles1, labels1 = ax1.get_legend_handles_labels()
