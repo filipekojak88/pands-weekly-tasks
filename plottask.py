@@ -22,15 +22,19 @@ plt.xlabel("Value")
 plt.ylabel("Occurrence")
 plt.legend()
 
+# Add a secondary y-axis to improve visitbility between historgram and line plot
+ax2 = plt.gca().twinx()
 
-# generate an array of x values within range (1 - 10]
-x_points = np.array(range(11))
+# generate an array of x values within range (0 - 10]
+x_points = np.array(range(0,11))
 # calculate h(x) = x ^ 3 for each x value
 h_points = x_points ** 3
 
 # Plot of the function h(x) = x ^ 3 on same graphic
-plt.plot(x_points, h_points, color='b',label = "h(x) = x ^ 3")
-plt.legend()
+ax2.plot(x_points, h_points, color='b',label = "h(x) = x^3 (Right Y-Axis)")    # label for identification of secondary y-axis
+ax2.set_ylabel('h(x) Value')                                                   # set ylabel
+ax2.tick_params(axis='y', labelcolor='b')                                      # add label color for the secondary axis y
+plt.legend(loc='upper left')
 
 # Display the graph with histogram and line plot
 plt.show()
