@@ -7,11 +7,11 @@ MarkDown was used in this README file and was based on [GitHub's Documentation](
 
 ## Get Started
 
-<div style="text-align: justify">To understand better the tasks have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimse of what the task is about then you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.</div>
+<div style="text-align: justify">To understand better the tasks have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimpse of what the task is about then you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.</div>
 
 ## About These Tasks
 
-There were 8 tasks that were completed throught the Programming and Scripting course and the details of each task is described under the headings below.
+There were 8 tasks that were completed throughout the Programming and Scripting course and the details of each task is described under the headings below.
 
 
 ### Weekly Tasks 1: [helloworld.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/helloworld.py)
@@ -21,8 +21,8 @@ The program helloworld.py was the first program created by myself during this co
 
 ### Weekly Tasks 2: [bank.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/bank.py)
 
-The program bank.py is a program that when executed it displays a message for the user to enter two amounts in cents. However, the value must be an interger. For instance, €10.33 should be input as 1033. After the two values are entered by the user then the program calculates and output the sum of the two values.  
-The program was created to first sum up the two values and then split the values into two parts. The first part is the interger part (using the interger division operator in Python // to divide the interger part of the number by 100) and the second part is the decimal part (using the operator % to return the remainder of a division by 100). Finally the two parts (interger and decimal) are printed out via the function print () by concatenating both parts using an f string formatting to interpolate the two values within a string.
+The program bank.py is a program that when executed it displays a message for the user to enter two amounts in cents. However, the value must be an integer. For instance, €10.33 should be input as 1033. After the two values are entered by the user then the program calculates and output the sum of the two values.  
+The program was created to first sum up the two values and then split the values into two parts. The first part is the integer part (using the integer division operator in Python // to divide the integer part of the number by 100) and the second part is the decimal part (using the operator % to return the remainder of a division by 100). Finally the two parts (integer and decimal) are printed out via the function print () by concatenating both parts using an f string formatting to interpolate the two values within a string.
 
 
 ### Weekly Tasks 3: [accounts.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/accounts.py)
@@ -71,7 +71,7 @@ Note: To test this program the text file [moby-dick.txt](https://github.com/fili
 
 ### Weekly Tasks 8: [plottask.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/plottask.py)
 
-This program is like a math and graphing class combined. It creates a bar graph (that's the histogram) showing how often certain numbers pop up in a set of 1000 numbers that behave like a typical set of data with an average of 5 and some variety around that average. Alongside this, it draws a curved line (that's the h (x) = x^ 3 function) showing what happens when you take each number from 0 to 10, multiply it by itself three times, and plot the result. It's like seeing two different ways to understand numbers on the same picture! The chart was also improved with two y-axis to provide a better visualization of the histrogram and line plot on the same graph. The legend for both plots were grouped into the same legend for a more clean and organized presentation.
+This program is like a math and graphing class combined. It creates a bar graph (that's the histogram) showing how often certain numbers pop up in a set of 1000 numbers that behave like a typical set of data with an average of 5 and some variety around that average. Alongside this, it draws a curved line (that's the h (x) = x^ 3 function) showing what happens when you take each number from 0 to 10, multiply it by itself three times, and plot the result. It's like seeing two different ways to understand numbers on the same picture! The chart was also improved with two y-axis to provide a better visualization of the histogram and line plot on the same graph. The legend for both plots were grouped into the same legend for a more clean and organized presentation.
 
 ## Use of these tasks
 
