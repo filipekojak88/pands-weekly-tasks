@@ -69,6 +69,7 @@ Note: To test this program the text file [moby-dick.txt](https://github.com/fili
 
 ### Weekly Tasks 8: [plottask.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/plottask.py)
 
+This program is like a math and graphing class combined. It creates a bar graph (that's the histogram) showing how often certain numbers pop up in a set of 1000 numbers that behave like a typical set of data with an average of 5 and some variety around that average. Alongside this, it draws a curved line (that's the h (x) = x^ 3 function) showing what happens when you take each number from 0 to 10, multiply it by itself three times, and plot the result. It's like seeing two different ways to understand numbers on the same picture! The chart was also improved with two y-axis to provide a better visualization of the histrogram and line plot on the same graph. The legend for both plots were grouped into the same legend for a more clean and organized presentation.
 
 ## Use of these tasks
 
@@ -213,5 +214,3 @@ https://gist.github.com/StevenClontz/4445774
 https://www.theserverside.com/tip/What-does-the-Python-if-name-equals-main-construct-do#:~:text=to%20the%20console.-,The%20if%20__name__%20%3D%3D%20%22__main__%22%3A,it%20would%20not%20execute%20automatically.
 
 https://atu-main-mdl-euwest1.s3.eu-west-1.amazonaws.com/4a/2f/4a2fd8d23088f9d87b69902e5a31076629cf05cb?response-content-disposition=inline%3B%20filename%3D%22Lab%2008%20matplotlb.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWRN6GJFLWCMOG6H7%2F20240411%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20240411T000822Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21578&X-Amz-Signature=cbe2d3cf087c51d671525a4791517ee76ee5bdc276b3cede73b871bd95c9aafc 
-
-
