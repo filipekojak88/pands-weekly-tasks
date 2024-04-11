@@ -1,7 +1,7 @@
 # Repository: pands-weekly-tasks
 This repository contains the weekly tasks that were completed as part of the Programming and Scripting classes in ATU with the lecturer Andrew Beatty.
-These tasks display several Python scripts that were created to demonstrate the skills that were developed during the course.
-This README has been written with [Github's documentation on READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind.
+These tasks display several Python scripts that were created to demonstrate the skills that were developed during the course.   
+This README has been written with [Github's documentation on READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind.   
 MarkDown was used in this README file and was based on [GitHub's Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ## Get Started
@@ -20,7 +20,7 @@ The program helloworld.py was the first program created by myself during this co
 
 ### Weekly Tasks 2: [bank.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/bank.py)
 
-The program bank.py is a program that when executed it displays a message for the user to enter two amounts in cents. However, the value must be an interger. For instance, €10.33 should be input as 1033. After the two values are entered by the user then the program calculates and output the sum of the two values.
+The program bank.py is a program that when executed it displays a message for the user to enter two amounts in cents. However, the value must be an interger. For instance, €10.33 should be input as 1033. After the two values are entered by the user then the program calculates and output the sum of the two values.  
 The program was created to first sum up the two values and then split the values into two parts. The first part is the interger part (using the interger division operator in Python // to divide the interger part of the number by 100) and the second part is the decimal part (using the operator % to return the remainder of a division by 100). Finally the two parts (interger and decimal) are printed out via the function print () by concatenating both parts using an f string formatting to interpolate the two values within a string.
 
 
@@ -54,15 +54,16 @@ This program was developed to determine if the current date is a weekday or a we
 
 ### Weekly Tasks 6: [squareroot.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/squareRoot.py)
 
-<div style="text-align: justify">This program was based on [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method) for square root estimation. The squareroot.py program calculates and returns the approximate square root of a positive number that has been input by the user. The program checks if the value is positive and if it is not then it displays a message to the user that a positive number is required and the program terminates. The main part of the program is the loop used to refine the approximation of the square root. The program starts with a guess which is the number itself and goes improving the guess at each iteration until the change between successive approximations is below a determined limit, which demonstrates that the estimation is accurate.</div> 
+This program was based on [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method) for square root estimation. The squareroot.py program calculates and returns the approximate square root of a positive number that has been input by the user. The program checks if the value is positive and if it is not then it displays a message to the user that a positive number is required and the program terminates. The main part of the program is the loop used to refine the approximation of the square root. The program starts with a guess which is the number itself and goes improving the guess at each iteration until the change between successive approximations is below a determined limit, which demonstrates that the estimation is accurate.
 
 
 ### Weekly Tasks 7: [es.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/es.py) 
 
 The program es.py was created to count the number of times that the letter 'e' (lowercase and uppercase) appears in a text file. It was set up so as the user provides the file name on the command-line. The program was designed with two functions count_e(file_name) and main():
-1 - The first one opens the file and reads it, counting and returning the total number of lowercase and uppercase 'e' found in the text file. Here, there is a check to confirm that the file name provided exists and if it does not exist then an error message is provided and the program terminates.
-2 - The second function works as an entry point. It first verifies that a command-line argument was typed in by the user and that the file is a '.txt' extension. Any error found regarding these two verifications are fed back to the user through an error message and program terminates. If everything works well then the count of 'e'(lowercase and uppercase) for the input file is output by the program. 
-
+<ol>
+<li>The first one opens the file and reads it, counting and returning the total number of lowercase and uppercase 'e' found in the text file. Here, there is a check to confirm that the file name provided exists and if it does not exist then an error message is provided and the program terminates.</li>
+<li>The second function works as an entry point. It first verifies that a command-line argument was typed in by the user and that the file is a '.txt' extension. Any error found regarding these two verifications are fed back to the user through an error message and program terminates. If everything works well then the count of 'e'(lowercase and uppercase) for the input file is output by the program.</li> 
+</ol>
 Note: To test this program the text file [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt) was added to pands-weekly-tasks and a total of 59646 characters "e" (uppercase and lowercase) were identified by running the program es.py.
 
 
@@ -71,8 +72,8 @@ Note: To test this program the text file [moby-dick.txt](https://github.com/fili
 
 ## Use of these tasks
 
-This repository pands-weekly-tasks will be used to grade my learning from the Programming and Scripting course.
-This repository can be used by other users as a source of examples of codes that can be written by a new Python user.
+This repository pands-weekly-tasks will be used to grade my learning from the Programming and Scripting course.     
+This repository can be used by other users as a source of examples of codes that can be written by a new Python user.       
 Also, these tasks reflect my understanding from the Python programming skills learned during the course, which is far from perfect but show a perspective of a student who has started learning Python.
 
 
@@ -82,7 +83,7 @@ If questions are raised when reviewing these tasks you can contact me via github
 
 ## Contribute
 
-This is a one-off repository completed with the goal of attending the assignment requirements for the course of Programming and Scripting in ATU and the contribution will be based on feedback provided by Andrew Beatty during the lectures and during the grading of this Assignment. 
+This is a one-off repository completed with the goal of attending the assignment requirements for the course of Programming and Scripting in ATU and the contribution will be based on feedback provided by Andrew Beatty during the lectures and during the grading of this Assignment.     
 Any other activity has been entirely completed by the author.
 
 
@@ -90,9 +91,9 @@ Any other activity has been entirely completed by the author.
 
 [Filipe Carvalho](https://www.linkedin.com/in/filipe-carvalho-8146232a/)
 
-I am a Quality Engineer with 10 years of experience in Automotive and Medical Device Industry.
-I am a Production Mechanical Engineer with a Master Science degree in Management from Trinity College.
-As a form of further develop myself and prepare to dive into AI in the future, I started in 2024 the course of Data Analytics in ATU.
+I am a Quality Engineer with 10 years of experience in Automotive and Medical Device Industry.  
+I am a Production Mechanical Engineer with a Master Science degree in Management from Trinity College.  
+As a form of further develop myself and prepare to dive into AI in the future, I started in 2024 the course of Data Analytics in ATU.   
 
 
 ## References:
