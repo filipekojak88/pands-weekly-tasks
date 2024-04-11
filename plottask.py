@@ -20,9 +20,9 @@ plt.hist(sample, bins=30, color='y', alpha=0.7, label="Normal Distribution")
 plt.title("Normal Distribution and Function Plot")
 plt.xlabel("Value")
 plt.ylabel("Occurrence")
-plt.legend()
 
 # Add a secondary y-axis to improve visitbility between historgram and line plot
+ax1 = plt.gca()
 ax2 = plt.gca().twinx()
 
 # generate an array of x values within range (0 - 10]
@@ -34,7 +34,17 @@ h_points = x_points ** 3
 ax2.plot(x_points, h_points, color='b',label = "h(x) = x^3 (Right Y-Axis)")    # label for identification of secondary y-axis
 ax2.set_ylabel('h(x) Value')                                                   # set ylabel
 ax2.tick_params(axis='y', labelcolor='b')                                      # add label color for the secondary axis y
-plt.legend(loc='upper left')
+
+# Get handles and labels for both axes
+handles1, labels1 = ax1.get_legend_handles_labels()
+handles2, labels2 = ax2.get_legend_handles_labels()
+
+# Combine handles and labels
+handles = handles1 + handles2
+labels = labels1 + labels2
+
+# Plot one legend with handles and labels for both plots
+ax1.legend(handles, labels, loc='upper right')
 
 # Display the graph with histogram and line plot
 plt.show()
