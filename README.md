@@ -7,7 +7,7 @@ MarkDown was used in this README file and was based on [GitHub's Documentation](
 
 ## Get Started
 
-<div style="text-align: justify">To understand better the tasks have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimpse of what the task is about then you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.</div>
+To understand better the tasks have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimpse of what the task is about then you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.
 
 ## About These Tasks
 
@@ -21,7 +21,7 @@ The program helloworld.py was the first program created by myself during this co
 
 ### Weekly Tasks 2: [bank.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/bank.py)
 
-The program bank.py is a program that when executed it displays a message for the user to enter two amounts in cents. However, the value must be an integer. For instance, €10.33 should be input as 1033. After the two values are entered by the user then the program calculates and output the sum of the two values.  
+The program bank.py is a program that when executed it displays a message for the user to enter two amounts in cents. However, the value must be an integer. For instance, €10.33 should be input as 1033. After the two values are entered by the user then the program calculates and outputs the sum of the two values.  
 The program was created to first sum up the two values and then split the values into two parts. The first part is the integer part (using the integer division operator in Python // to divide the integer part of the number by 100) and the second part is the decimal part (using the operator % to return the remainder of a division by 100). Finally the two parts (integer and decimal) are printed out via the function print () by concatenating both parts using an f string formatting to interpolate the two values within a string.
 
 
@@ -29,7 +29,7 @@ The program was created to first sum up the two values and then split the values
 
 This accounts.py program is a Python script that mimics the security approach that is used by banks when displaying the account number to users.
 In this program the users are prompted to input their account number and the program displays the last four digits of the account number while replacing the other digits by X.
-The program workflow follow the steps: 
+The program workflow follows the steps: 
 
 <ol>
 <li>User is prompt to input their account number.</li>
@@ -45,12 +45,12 @@ This program also accepts an account number of any number of characters.
 
 ### Weekly Tasks 4: [collatz.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/collatz.py)
 
-The collatz.py program illustrates the calculation process for the [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), which is a mathematic problem that is considered quite famous for not being able to be resolved by the mathematicians as the conjecture has been proved to be held for all positive integers up to 2.95 x 10 ^ 20, but nobody was able to come up with a general proof. This program requests that a user inputs any positive integer and check if the number is even or odd. If the number is even then the program divides the number by 2. But if the number is odd then the number is multiplied by 3 and added one. As the numbers are generated from the conditional and subsequent calculation then these are stored in a sequence and returned into the loop to redo the conditional check and calculation until the final result ends in 1.
+The collatz.py program illustrates the calculation process for the [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), which is a mathematic problem that is considered quite famous for not being able to be resolved by the mathematicians as the conjecture has been proved to be held for all positive integers up to 2.95 x 10 ^ 20, but nobody was able to come up with a general proof. This program requests that a user inputs any positive integer and check if the number is even or odd. If the number is even then the program divides the number by 2. But if the number is odd then the number is multiplied by 3 and added one. The numbers are generated, stored in a sequence, and continuously reprocessed through the conditional check and calculation until the final result is 1.
 
 
 ###  Weekly Tasks 5: [weekday.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/weekday.py)
 
-This program was developed to determine if the current date is a weekday or a weekend. Datetime object was imported from datetime module and used in conjunction with the function now() to determine today's date. As this program just take into consideration two groups weekday and weekend, then weekend was defined in the program as it is a group with just to elements "Saturday" and "Sunday". The program then uses strftime() method from datetime module to obtain the day's name from today's date and uses %A to ensure that the full name is returned. Finally the program verifies if the today's day is the weekend group. If it is in the weekend group then it outputs a message confirming it is weekend. Otherwise, it is a weekday and outputs a message confirming it is a weekday.
+This program was developed to determine if the current date is a weekday or a weekend. Datetime object was imported from datetime module and used in conjunction with the function now() to determine today's date. Since this program only considers two groups, weekdays and weekends, the program defines weekends as a group consisting of just two elements "Saturday" and "Sunday". The program then uses strftime() method from datetime module to obtain the day's name from today's date and uses %A to ensure that the full name is returned. Finally the program verifies if the today's day is the weekend group. If it is in the weekend group then it outputs a message confirming it is weekend. Otherwise, it is a weekday and outputs a message confirming it is a weekday.
 
 
 ### Weekly Tasks 6: [squareroot.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/squareRoot.py)
