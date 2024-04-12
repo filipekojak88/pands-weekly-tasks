@@ -5,9 +5,13 @@ These tasks display several Python scripts that were created to demonstrate the 
 This README has been written with [Github's documentation on READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind.   
 MarkDown was used in this README file and was based on [GitHub's Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
+## Overview
+
+This README provides detailed descriptions of each weekly task completed during the Programming and Scripting course. Each task is outlined below with a brief explanation of its purpose and functionality. The README is organized to help readers navigate through the tasks effectively.
+
 ## Get Started
 
-To understand better the tasks have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimpse of what the task is about then you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.
+To better understand the tasks, have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimpse of what the task is about, you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.
 
 ## About These Tasks
 
@@ -16,28 +20,28 @@ There were 8 tasks that were completed throughout the Programming and Scripting 
 
 ### Weekly Tasks 1: [helloworld.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/helloworld.py)
 
-The program helloworld.py was the first program created by myself during this course. This is a very simple program that was created using the print() function to display a string "Hello World!" when this program is run by the user. 
+The program helloworld.py was the first program created during this course. It is a very simple program that uses the print() function to display the string "Hello World!" when run by the user. 
 
 
 ### Weekly Tasks 2: [bank.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/bank.py)
 
-The program bank.py is a program that when executed it displays a message for the user to enter two amounts in cents. However, the value must be an integer. For instance, €10.33 should be input as 1033. After the two values are entered by the user then the program calculates and outputs the sum of the two values.  
-The program was created to first sum up the two values and then split the values into two parts. The first part is the integer part (using the integer division operator in Python // to divide the integer part of the number by 100) and the second part is the decimal part (using the operator % to return the remainder of a division by 100). Finally the two parts (integer and decimal) are printed out via the function print () by concatenating both parts using an f string formatting to interpolate the two values within a string.
+The program bank.py displays a message for the user to enter two amounts in cents. However, the value must be an integer. For instance, €10.33 should be input as 1033. After the two values are entered by the user, the program calculates and outputs the sum of the two values.  
+The program first sum up the two values and then split the values into two parts. The first part is the integer part (using the integer division operator in Python // to divide the integer part of the number by 100) and the second part is the decimal part (using the operator % to return the remainder of a division by 100). Finally, the two parts (integer and decimal) are printed out using the function print () by concatenating both parts using an f-string formatting to interpolate the two values within a string.
 
 
 ### Weekly Tasks 3: [accounts.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/accounts.py)
 
-This accounts.py program is a Python script that mimics the security approach that is used by banks when displaying the account number to users.
-In this program the users are prompted to input their account number and the program displays the last four digits of the account number while replacing the other digits by X.
-The program workflow follows the steps: 
+This accounts.py program is a Python script that mimics the security approach used by banks when displaying the account number to users.
+In this program, users are prompted to input their account number, and the program displays the last four digits of the account number while replacing the other digits with X.
+The program workflow follows these steps: 
 
 <ol>
 <li>User is prompt to input their account number.</li>
 <li>The program converts the number into a string and counts the number of characters.</li>
-<li>It calculates the number of characters that need to be convert to 'X' by subtracting 4 from the amount of characters.</li>
+<li>It calculates the number of characters that need to be convert to 'X' by subtracting 4 from the number of characters.</li>
 <li>It isolates the last 4 digits of the account number.</li>
-<li>It converts all the characters minus the last 4 to "X".</li>
-<li>Then it outputs the modified account number with all characters displaying X except by the last 4 digits which are displayed in numbers as it appears in the account number.</li>
+<li>It converts all the characters except the last 4 to "X".</li>
+<li>Then it outputs the modified account number with all characters displaying X except for the last 4 digits, which are displayed as they appear in the account number.</li>
 </ol>
 
 This program also accepts an account number of any number of characters.
@@ -45,48 +49,48 @@ This program also accepts an account number of any number of characters.
 
 ### Weekly Tasks 4: [collatz.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/collatz.py)
 
-The collatz.py program illustrates the calculation process for the [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), which is a mathematic problem that is considered quite famous for not being able to be resolved by the mathematicians as the conjecture has been proved to be held for all positive integers up to 2.95 x 10 ^ 20, but nobody was able to come up with a general proof. This program requests that a user inputs any positive integer and check if the number is even or odd. If the number is even then the program divides the number by 2. But if the number is odd then the number is multiplied by 3 and added one. The numbers are generated, stored in a sequence, and continuously reprocessed through the conditional check and calculation until the final result is 1.
+The collatz.py program illustrates the calculation process for the [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), a famours unresolved mathematical problem. Despite being verified for all positive integers up to 2.95 x 10^20, it lacks a general proof. The program requests that a user input any positive integer and check if the number is even or odd. If the number is even, then the program divides the number by 2. But if the number is odd, then the number is multiplied by 3 and added by 1. The numbers are generated, stored in a sequence, and continuously reprocessed through the conditional check and calculation until the final result is 1.
 
 
 ###  Weekly Tasks 5: [weekday.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/weekday.py)
 
-This program was developed to determine if the current date is a weekday or a weekend. Datetime object was imported from datetime module and used in conjunction with the function now() to determine today's date. Since this program only considers two groups, weekdays and weekends, the program defines weekends as a group consisting of just two elements "Saturday" and "Sunday". The program then uses strftime() method from datetime module to obtain the day's name from today's date and uses %A to ensure that the full name is returned. Finally the program verifies if the today's day is the weekend group. If it is in the weekend group then it outputs a message confirming it is weekend. Otherwise, it is a weekday and outputs a message confirming it is a weekday.
+This program determines if the current date is a weekday or a weekend. The datetime module is imported and used in conjunction with the function now() to determine today's date. Since this program only considers two groups, weekdays and weekends, the program defines weekends as a group consisting of just two elements "Saturday" and "Sunday". The program then uses strftime() method from datetime module to obtain the day's name from today's date and uses %A to ensure that the full name is returned. Finally the program verifies if the today's day is in the weekend group. If it is in the weekend group, then it outputs a message confirming it is the weekend. Otherwise, it is a weekday, and it outputs a message confirming it is a weekday.
 
 
 ### Weekly Tasks 6: [squareroot.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/squareRoot.py)
 
-This program was based on [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method) for square root estimation. The squareroot.py program calculates and returns the approximate square root of a positive number that has been input by the user. The program checks if the value is positive and if it is not then it displays a message to the user that a positive number is required and the program terminates. The main part of the program is the loop used to refine the approximation of the square root. The program starts with a guess which is the number itself and goes improving the guess at each iteration until the change between successive approximations is below a determined limit, which demonstrates that the estimation is accurate.
+This program estimates the square root of a positive number using [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method). The squareroot.py program checks if the value is positive, and if it is not, it displays a message to the user that a positive number is required, and the program terminates. The main part of the program is the loop used to refine the approximation of the square root. The program starts with a guess, which is the number itself, and iterates to improve the guess until the change between successive approximations is below a determined limit, indicating that the estimation is accurate.
 
 
 ### Weekly Tasks 7: [es.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/es.py) 
 
-The program es.py was created to count the number of times that the letter 'e' (lowercase and uppercase) appears in a text file. It was set up so as the user provides the file name on the command-line. The program was designed with two functions count_e(file_name) and main():
+The program es.py counts the number of times that the letter 'e' (lowercase and uppercase) appears in a text file. It was set up so that the user provides the file name on the command-line. The program is designed with two functions count_e(file_name) and main():
 <ol>
-<li>The first one opens the file and reads it, counting and returning the total number of lowercase and uppercase 'e' found in the text file. Here, there is a check to confirm that the file name provided exists and if it does not exist then an error message is provided and the program terminates.</li>
-<li>The second function works as an entry point. It first verifies that a command-line argument was typed in by the user and that the file is a '.txt' extension. Any error found regarding these two verifications are fed back to the user through an error message and program terminates. If everything works well then the count of 'e'(lowercase and uppercase) for the input file is output by the program.</li> 
+<li>The first one opens the file and reads it, counting and returning the total number of lowercase and uppercase 'e' found in the text file. It checks to confirm that the provided file name exists, and if it does not, then an error message is provided, and the program terminates.</li>
+<li>The second function works as an entry point. It verifies that a command-line argument was provided by the user and that the file has a '.txt' extension. Any errors regarding these two verifications are fed back to the user through an error message, and program terminates. If everything works well, then the count of 'e'(lowercase and uppercase) for the input file is output by the program.</li> 
 </ol>
 
-Note: To test this program the text file [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt) was added to pands-weekly-tasks and a total of 59646 characters "e" (uppercase and lowercase) were identified by running the program es.py.
+Note: To test this program, the text file [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt) was added to pands-weekly-tasks, and a total of 59646 occurrences of the letter "e" were identified.
 
 
 ### Weekly Tasks 8: [plottask.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/plottask.py)
 
-This program is like a math and graphing class combined. It creates a bar graph (that's the histogram) showing how often certain numbers pop up in a set of 1000 numbers that behave like a typical set of data with an average of 5 and some variety around that average. Alongside this, it draws a curved line (that's the h (x) = x^ 3 function) showing what happens when you take each number from 0 to 10, multiply it by itself three times, and plot the result. It's like seeing two different ways to understand numbers on the same picture! The chart was also improved with two y-axis to provide a better visualization of the histogram and line plot on the same graph. The legend for both plots were grouped into the same legend for a more clean and organized presentation.
+This program creates a bar graph (histogram) showing how often certain numbers pop up in a set of 1000 numbers that behave like a typical set of data with an average of 5 and some variety around that average. Alongside this, it draws a curved line (h (x) = x^3 function) showing what happens when you take each number from 0 to 10, multiply it by itself three times, and plot the result. The chart is also improved with two y-axis to provide a better visualization of the histogram and line plot on the same graph. The legends for both plots are grouped into the same legend for a cleaner and more organized presentation.
 
 ## Use of these tasks
 
-This repository pands-weekly-tasks will be used to grade my learning from the Programming and Scripting course.     
+This repository pands-weekly-tasks, will be used to grade my learning from the Programming and Scripting course.     
 This repository can be used by other users as a source of examples of codes that can be written by a new Python user.       
-Also, these tasks reflect my understanding from the Python programming skills learned during the course, which is far from perfect but show a perspective of a student who has started learning Python.
+Also, these tasks reflect my understanding from the Python programming skills learned during the course, which is far from perfect but shows a perspective of a student who has started learning Python.
 
 
 ## Get Help
 
-If questions are raised when reviewing these tasks you can contact me via github and I will be happy to provide more information.
+If questions are raised when reviewing these tasks, you can contact me via github, and I will be happy to provide more information.
 
 ## Contribute
 
-This is a one-off repository completed with the goal of attending the assignment requirements for the course of Programming and Scripting in ATU and the contribution will be based on feedback provided by Andrew Beatty during the lectures and during the grading of this Assignment.     
+This is a one-off repository completed with the goal of meeting the assignment requirements for the Programming and Scripting course at ATU, and the contribution will be based on feedback provided by Andrew Beatty during the lectures and during the grading of this Assignment.     
 Any other activity has been entirely completed by the author.
 
 
@@ -95,8 +99,8 @@ Any other activity has been entirely completed by the author.
 [Filipe Carvalho](https://www.linkedin.com/in/filipe-carvalho-8146232a/)
 
 I am a Quality Engineer with 10 years of experience in Automotive and Medical Device Industry.  
-I am a Production Mechanical Engineer with a Master Science degree in Management from Trinity College.  
-As a form of further develop myself and prepare to dive into AI in the future, I started in 2024 the course of Data Analytics in ATU.   
+I am a Production Mechanical Engineer with a Master of Science degree in Management from Trinity College.  
+To further develop myself and prepare to dive into AI in the future, I started the Data Analytics course at ATU in 2024.  
 
 
 ## References:
