@@ -3,7 +3,7 @@
 This repository contains the weekly tasks that were completed as part of the Programming and Scripting classes in ATU with the lecturer Andrew Beatty.
 These tasks display several Python scripts that were created to demonstrate the skills that were developed during the course.   
 This README has been written with Github's documentation on READMEs in mind [[1]](#1).
-MarkDown was used in this README file and was based on [GitHub's Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+MarkDown was used in this README file and was based on GitHub's Documentation [[2]](#2). 
 
 ## Overview
 
@@ -20,7 +20,7 @@ There were 8 tasks that were completed throughout the Programming and Scripting 
 
 ### Weekly Tasks 1: [helloworld.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/helloworld.py)
 
-The program helloworld.py was the first program created during this course. It is a very simple program that uses the print() function to display the string "Hello World!" when run by the user. 
+The program helloworld.py was the first program created during this course. It is a very simple program that uses the print() function to display the string "Hello World!" when run by the user [[3]](#3) [[4]](#4). 
 
 
 ### Weekly Tasks 2: [bank.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/bank.py)
@@ -105,19 +105,21 @@ To further develop myself and prepare to dive into AI in the future, I started t
 
 ## References:
 
-<a id="1">[1]</a> About readmes (no date) GitHub Docs. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes (Accessed: 22 April 2024). 
+<a id="1">[1]</a> About readmes (2024) GitHub Docs. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes (Accessed: 22 April 2024). 
 
-https://www.learnpython.org/en/Hello,_World!
+<a id="2">[2]</a> Basic writing and formatting syntax (2024) GitHub Docs. Available at: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax (Accessed: 22 April 2024). 
 
-https://cs.stanford.edu/people/nick/py/python-print.html
+<a id="3">[3]</a> Hello, world! (no date) Learn Python - Free Interactive Python Tutorial. Available at: https://www.learnpython.org/en/Hello,_World! (Accessed: 22 April 2024). 
 
-https://s3-us-west-2.amazonaws.com/python-notes/a-whirlwind-tour-of-python-2.pdf
+<a id="4">[4]</a> Nick  Parlante (2020) Print() and standard out, Computer Science. Available at: https://cs.stanford.edu/people/nick/py/python-print.html (Accessed: 22 April 2024). 
 
-https://docs.python.org/3/library/functions.html#input
+<a id="5">[5]</a> VanderPlas, J. (2016) A whirlwind tour of python, A Whirlwind Tour of Python | A Whirlwind Tour of Python. Available at: https://jakevdp.github.io/WhirlwindTourOfPython/ (Accessed: 22 April 2024).
 
-https://www.w3schools.com/python/ref_func_input.asp
+<a id="6">[6]</a> Built-in functions (2024) Python documentation. Available at: https://docs.python.org/3/library/functions.html#input (Accessed: 22 April 2024). 
 
-https://realpython.com/python-f-strings/
+<a id="7">[7]</a> W3Schools (2024) Python input() function. Available at: https://www.w3schools.com/python/ref_func_input.asp (Accessed: 22 April 2024). 
+
+<a id="8">[8]</a> Real Python (2023) Python’s F-string for string interpolation and formatting, Real Python. Available at: https://realpython.com/python-f-strings/ (Accessed: 22 April 2024).
 
 https://realpython.com/python-string-formatting/
 
