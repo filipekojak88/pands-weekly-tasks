@@ -2,7 +2,7 @@
 
 This repository contains the weekly tasks that were completed as part of the Programming and Scripting classes in ATU with the lecturer Andrew Beatty.
 These tasks display several Python scripts that were created to demonstrate the skills that were developed during the course.   
-This README has been written with [Github's documentation on READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)[[1]](#1) in mind.
+This README has been written with Github's documentation on READMEs in mind [[1]](#1).
 MarkDown was used in this README file and was based on [GitHub's Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ## Overview
@@ -105,7 +105,7 @@ To further develop myself and prepare to dive into AI in the future, I started t
 
 ## References:
 
-<a id="1">[1]</a>About readmes (no date) GitHub Docs. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes (Accessed: 22 April 2024). 
+<a id="1">[1]</a> About readmes (no date) GitHub Docs. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes (Accessed: 22 April 2024). 
 
 https://www.learnpython.org/en/Hello,_World!
 
