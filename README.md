@@ -121,126 +121,120 @@ To further develop myself and prepare to dive into AI in the future, I started t
 
 <a id="8">[8]</a> Real Python (2023) Python’s F-string for string interpolation and formatting, Real Python. Available at: https://realpython.com/python-f-strings/ (Accessed: 22 April 2024).
 
-https://realpython.com/python-string-formatting/
+<a id="9">[9]</a> Real Python (2024) Python string formatting best practices, Real Python. Available at: https://realpython.com/python-string-formatting/ (Accessed: 22 April 2024). 
 
-https://www.programiz.com/python-programming/methods/built-in/int
+<a id="10">[10]</a> Python int() (no date) Programiz. Available at: https://www.programiz.com/python-programming/methods/built-in/int (Accessed: 22 April 2024). 
 
-https://www.w3schools.com/python/python_string_formatting.asp
+<a id="11">[11]</a> W3Schools (No date) Python string formatting. Available at: https://www.w3schools.com/python/python_string_formatting.asp (Accessed: 22 April 2024). 
 
-https://www.askpython.com/python/string/02d-in-python
+<a id="12">[12]</a> Nair, A. (2023) What does {:02d} mean in python?, AskPython. Available at: https://www.askpython.com/python/string/02d-in-python (Accessed: 22 April 2024). 
 
-https://atlantictu-my.sharepoint.com/:v:/g/personal/andrew_beatty_atu_ie/ETmXpdhA8etHobd2Vm8ozZMBWYqHaNq0Cu94nHR4pOyz9A?e=6Tnuf3&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopiedShareExpTreatment%2Eview
+<a id="13">[13]</a> Video: pands 2.4 first programs.mp4 (2024) GitHub. Available at: https://atlantictu-my.sharepoint.com/:v:/g/personal/andrew_beatty_atu_ie/ETmXpdhA8etHobd2Vm8ozZMBWYqHaNq0Cu94nHR4pOyz9A?e=6Tnuf3&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopiedShareExpTreatment%2Eview (Accessed: 22 April 2024). 
 
-https://ioflood.com/blog/python-integer-division-how-to-use-the-floor-operator/#:~:text=Python%20provides%20two%20types%20of,in%203%20(integer%20division)
+<a id="14">[14]</a> Ramuglia, G. (2024) Python integer division: How to use the // floor operator, Linux Dedicated Server Blog. Available at: https://ioflood.com/blog/python-integer-division-how-to-use-the-floor-operator/#:~:text=Python%20provides%20two%20types%20of,in%203%20(integer%20division) (Accessed: 22 April 2024). 
 
-https://www.w3schools.com/python/python_strings_concatenate.asp
+<a id="15">[15]</a> W3Schools (no date) Python - string concatenation. Available at: https://www.w3schools.com/python/python_strings_concatenate.asp (Accessed: 22 April 2024). 
 
-https://realpython.com/python-string-formatting/
+<a id="16">[16]</a> Real Python (2024) Python string formatting best practices, Real Python. Available at: https://realpython.com/python-string-formatting/ (Accessed: 22 April 2024). 
 
-https://www.w3schools.com/python/python_strings_slicing.asp
+<a id="17">[17]</a> W3Schools (no date) Python - slicing strings. Available at: https://www.w3schools.com/python/python_strings_slicing.asp (Accessed: 22 April 2024). 
 
-https://www.w3schools.com/python/python_strings_concatenate.asp
+<a id="18">[18]</a> W3Schools (no date a) Python string length. Available at: https://www.w3schools.com/python/gloss_python_string_length.asp (Accessed: 22 April 2024). 
 
-https://www.w3schools.com/python/gloss_python_string_length.asp
+<a id="19">[19]</a> Mallari, R. (2022) How can I dynamically mask all digits except the last 4 always?, Stack Overflow. Available at: https://stackoverflow.com/questions/70258603/how-can-i-dynamically-mask-all-digits-except-the-last-4-always (Accessed: 22 April 2024). 
 
-https://stackoverflow.com/questions/70258603/how-can-i-dynamically-mask-all-digits-except-the-last-4-always
+<a id="20">[20]</a> W3Schools (no date a) Python operators. Available at: https://www.w3schools.com/python/python_operators.asp (Accessed: 22 April 2024). 
 
-https://www.w3schools.com/python/python_operators.asp
+<a id="21">[21]</a> Collatz conjecture (2024) Wikipedia. Available at: https://en.wikipedia.org/wiki/Collatz_conjecture (Accessed: 22 April 2024). 
 
-https://en.wikipedia.org/wiki/Collatz_conjecture
+<a id="22">[22]</a> Python if ... else (no date) Python Conditions. Available at: https://www.w3schools.com/python/python_conditions.asp (Accessed: 22 April 2024). 
 
-https://www.w3schools.com/python/python_conditions.asp
+<a id="23">[23]</a> Real Python (2022) Python ‘while’ loops (indefinite iteration), Real Python. Available at: https://realpython.com/python-while-loop/ (Accessed: 22 April 2024). 
 
-https://realpython.com/python-while-loop/
+<a id="24">[24]</a> Delta Flyer (2015) Making a Collatz program automate the boring stuff, Stack Overflow. Available at: https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff (Accessed: 22 April 2024). 
 
-https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+<a id="25">[25]</a> Gupta, C. (2023) Exploring the Collatz conjecture with python, Medium. Available at: https://medium.com/@chakshugupta774/exploring-the-collatz-conjecture-with-python-7c5d9f31d233 (Accessed: 23 April 2024). 
 
-https://medium.com/@chakshugupta774/exploring-the-collatz-conjecture-with-python-7c5d9f31d233
+<a id="26">[26]</a> Python program to check if a number is positive, negative, or 0: Example (2021) Toppr. Available at: https://www.toppr.com/guides/python-guide/examples/python-examples/decision-making-and-loops/positive-negative-zero/python-program-check-number-positive-negative-0/#:~:text=Python%20tests%20whether%20a%20number,Otherwise%2C%20it%20will%20be%20negative (Accessed: 23 April 2024). 
 
-https://www.toppr.com/guides/python-guide/examples/python-examples/decision-making-and-loops/positive-negative-zero/python-program-check-number-positive-negative-0/#:~:text=Python%20tests%20whether%20a%20number,Otherwise%2C%20it%20will%20be%20negative
+<a id="27">[27]</a> Python program to check if a number is odd or even: Python even or odd (2021) Toppr. Available at: https://www.toppr.com/guides/python-guide/examples/python-examples/python-program-to-check-if-a-number-is-odd-or-even/#:~:text=If%20a%20number%20is%20completely,then%20the%20number%20is%20odd (Accessed: 23 April 2024). 
 
-https://www.toppr.com/guides/python-guide/examples/python-examples/python-program-to-check-if-a-number-is-odd-or-even/#:~:text=If%20a%20number%20is%20completely,then%20the%20number%20is%20odd
+<a id="28">[28]</a> LeBrun (2016) While loop with IF/else statement in Python, Stack Overflow. Available at: https://stackoverflow.com/questions/36843103/while-loop-with-if-else-statement-in-python (Accessed: 23 April 2024). 
 
-https://stackoverflow.com/questions/36843103/while-loop-with-if-else-statement-in-python
+<a id="29">[29]</a> GeeksforGeeks (2023) Python: Printing string with double quotes. Available at: https://www.geeksforgeeks.org/python-printing-string-with-double-quotes/ (Accessed: 23 April 2024). 
 
-https://www.geeksforgeeks.org/python-printing-string-with-double-quotes/
+<a id="30">[30]</a> Vishal (2022) Python get the day of the Week, PYnative. Available at: https://pynative.com/python-get-the-day-of-week/#h-get-the-weekday-name-of-a-date-using-strftime-method (Accessed: 23 April 2024). 
 
-https://pynative.com/python-get-the-day-of-week/#h-get-the-weekday-name-of-a-date-using-strftime-method
+<a id="31">[31]</a> Datetime - basic date and time types (no date) Python documentation. Available at: https://docs.python.org/3/library/datetime.html (Accessed: 23 April 2024). 
 
-https://docs.python.org/3/library/datetime.html
+<a id="32">[32]</a> Real Python (2023) Lists and tuples in Python, Real Python. Available at: https://realpython.com/python-lists-tuples/ (Accessed: 23 April 2024). 
 
-https://realpython.com/python-lists-tuples/
+<a id="33">[33]</a> Kumar, N. (2018) Python modules: What are and how to import modules in python?, DataCamp. Available at: https://www.datacamp.com/tutorial/modules-in-python (Accessed: 23 April 2024). 
 
-https://www.datacamp.com/tutorial/modules-in-python
+<a id="34">[34]</a> 6. modules (no date) Python documentation. Available at: https://docs.python.org/3/tutorial/modules.html (Accessed: 23 April 2024). 
 
-https://docs.python.org/3/tutorial/modules.html
+<a id="35">[35]</a> Weekday function in Python (no date) weekday function in Python | Pythontic.com. Available at: https://pythontic.com/datetime/date/weekday (Accessed: 23 April 2024). 
 
-https://pythontic.com/datetime/date/weekday
+<a id="36">[36]</a> Newton’s method (no date) Wikipedia. Available at: https://en.wikipedia.org/wiki/Newton%27s_method (Accessed: 23 April 2024). 
 
-https://en.wikipedia.org/wiki/Newton%27s_method
+<a id="37">[37]</a> Find root of a number using Newton’s method (2023) GeeksforGeeks. Available at: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/ (Accessed: 23 April 2024). 
 
-https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+<a id="38">[38]</a> 8.6. Newton’s method (no date) 8.6. Newton’s Method - How to Think like a Computer Scientist: Interactive Edition. Available at: https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html (Accessed: 23 April 2024). 
 
-https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html
+<a id="39">[39]</a> Academy, I. (2023) Best practices for variable assignments in Python, Medium. Available at: https://medium.com/@instailyacademy/best-practices-for-variable-assignments-in-python-dd63c93bd68f (Accessed: 23 April 2024). 
 
-https://medium.com/@instailyacademy/best-practices-for-variable-assignments-in-python-dd63c93bd68f
+<a id="40">[40]</a> Defining your own python function (2023) Real Python. Available at: https://realpython.com/defining-your-own-python-function/ (Accessed: 23 April 2024). 
 
-https://realpython.com/defining-your-own-python-function/
+<a id="41">[41]</a> Singh, R. (2023) Python scientific notation, Scaler Topics. Available at: https://www.scaler.com/topics/python-scientific-notation/ (Accessed: 23 April 2024). 
 
-https://www.scaler.com/topics/python-scientific-notation/
+<a id="42">[42]</a> Tagliaferri, L. (2021) How to use break, continue, and pass statements when working with loops in python 3, DigitalOcean. Available at: https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3 (Accessed: 23 April 2024). 
 
-https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3
+<a id="43">[43]</a> Kumar, P. (2023) Python return statement, AskPython. Available at: https://www.askpython.com/python/python-return-statement (Accessed: 23 April 2024). 
 
-https://www.askpython.com/python/python-return-statement
+<a id="44">[44]</a> Ravikiran A S (2023) Understanding float in python [with examples], Simplilearn.com. Available at: https://www.simplilearn.com/tutorials/python-tutorial/float-in-python#:~:text=Float%20is%20a%20function%20or,architecture%20subject%20to%20available%20memory (Accessed: 23 April 2024). 
 
-https://www.simplilearn.com/tutorials/python-tutorial/float-in-python#:~:text=Float%20is%20a%20function%20or,architecture%20subject%20to%20available%20memory
+<a id="45">[45]</a> Training, W. by: Pierian (2023) Counting in a python loop: A beginner’s guide, Pierian Training. Available at: https://pieriantraining.com/counting-in-a-python-loop-a-beginners-guide/#:~:text=To%20count%20down%20with%20a,and%20decrement%20it%20by%20one.&text=In%20this%20example%2C%20we%20start%20with%20a%20counter%20value%20of%205 (Accessed: 23 April 2024). 
 
-https://pieriantraining.com/counting-in-a-python-loop-a-beginners-guide/#:~:text=To%20count%20down%20with%20a,and%20decrement%20it%20by%20one.&text=In%20this%20example%2C%20we%20start%20with%20a%20counter%20value%20of%205
+<a id="46">[46]</a> (No date) Chatgpt. Available at: https://chat.openai.com/ (Accessed: 22 April 2024). 
 
-https://chat.openai.com/chat
+<a id="47">[47]</a> Beatty (2024) Pands-course-material/jupyternotebooks/topic07-files.ipynb at main · Andrewbeattycourseware/pands-course-material, GitHub. Available at: https://github.com/andrewbeattycourseware/pands-course-material/blob/main/jupyternotebooks/topic07-files.ipynb (Accessed: 23 April 2024). 
 
-https://github.com/andrewbeattycourseware/pands-course-material/blob/main/jupyternotebooks/topic07-files.ipynb
+<a id="48">[48]</a> Python count() function: Why do we use Python string count() function?  (2021) Toppr. Available at: https://www.toppr.com/guides/python-guide/references/methods-and-functions/methods/string/count/python-string-count/#:~:text=How%20do%20you%20count%20characters,only%20a%20single%20substring%20parameter (Accessed: 23 April 2024). 
 
-https://www.toppr.com/guides/python-guide/references/methods-and-functions/methods/string/count/python-string-count/#:~:text=How%20do%20you%20count%20characters,only%20a%20single%20substring%20parameter
+<a id="49">[49]</a> Ali, M. (2023) The ultimate guide to command line arguments in python scripts, Medium. Available at: https://moez-62905.medium.com/the-ultimate-guide-to-command-line-arguments-in-python-scripts-61c49c90e0b3 (Accessed: 23 April 2024). 
 
-https://moez-62905.medium.com/the-ultimate-guide-to-command-line-arguments-in-python-scripts-61c49c90e0b3
+<a id="50">[50]</a> Python - command-line arguments (no date) Tutorialspoint. Available at: https://www.tutorialspoint.com/python/python_command_line_arguments.htm (Accessed: 23 April 2024). 
 
-https://www.tutorialspoint.com/python/python_command_line_arguments.htm 
+<a id="51">[51]</a> Handling errors (no date) User input and error handling. Available at: http://hplgit.github.io/primer.html/doc/pub/input/._input-solarized007.html (Accessed: 23 April 2024). 
 
-http://hplgit.github.io/primer.html/doc/pub/input/._input-solarized007.html
+<a id="52">[52]</a> Wkoomson (2011) How can I check the extension of a file?, Stack Overflow. Available at: https://stackoverflow.com/questions/5899497/how-can-i-check-the-extension-of-a-file (Accessed: 23 April 2024). 
 
-https://atu-main-mdl-euwest1.s3.eu-west-1.amazonaws.com/c4/b6/c4b699e20a2c8376efcb7ca04eb1cf7097617a4c?response-content-disposition=inline%3B%20filename%3D%22Lab%2007%20files.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWRN6GJFLWCMOG6H7%2F20240313%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20240313T201553Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21547&X-Amz-Signature=7ff80859a42e4e5bc6a41449fa02f40dad7ab3232b20bd386ee69b48204167d4
+<a id="53">[53]</a> GeeksforGeeks (2023) How to fix filenotfounderror in python, GeeksforGeeks. Available at: https://www.geeksforgeeks.org/why-am-i-getting-a-filenotfounderror-in-python/ (Accessed: 23 April 2024). 
 
-https://stackoverflow.com/questions/5899497/how-can-i-check-the-extension-of-a-file
+<a id="54">[54]</a> Built-in exceptions (no date) Python documentation. Available at: https://docs.python.org/3/library/exceptions.html (Accessed: 23 April 2024). 
 
-https://www.geeksforgeeks.org/why-am-i-getting-a-filenotfounderror-in-python/
+<a id="55">[55]</a> Real Python (2023) The python return statement: Usage and best practices, Real Python. Available at: https://realpython.com/python-return-statement/#returning-none-explicitly (Accessed: 23 April 2024). 
 
-https://docs.python.org/3/library/exceptions.html
+<a id="56">[56]</a> McAleer, K. (2023) What does the python ‘if name Equals Main’ construct do?: Theserverside, TheServerSide.com. Available at: https://www.theserverside.com/tip/What-does-the-Python-if-name-equals-main-construct-do#:~:text=to%20the%20console.-,The%20if%20__name__%20%3D%3D%20%22__main__%22%3A,it%20would%20not%20execute%20automatically. (Accessed: 23 April 2024). 
 
-https://realpython.com/python-return-statement/#returning-none-explicitly
+<a id="57">[57]</a> Clontz, S. (2013) Mobydick.txt, Git Hub. Available at: https://gist.github.com/StevenClontz/4445774 (Accessed: 23 April 2024). 
 
-https://www.theserverside.com/tip/What-does-the-Python-if-name-equals-main-construct-do#:~:text=to%20the%20console.-,The%20if%20__name__%20%3D%3D%20%22__main__%22%3A,it%20would%20not%20execute%20automatically.
+<a id="58">[58]</a> The absolute basics for beginners (no date) NumPy. Available at: https://numpy.org/doc/stable/user/absolute_beginners.html (Accessed: 23 April 2024). 
 
-https://gist.github.com/StevenClontz/4445774
+<a id="59">[59]</a> Pyplot tutorial (no date) Pyplot tutorial - Matplotlib 3.8.4 documentation. Available at: https://matplotlib.org/stable/tutorials/pyplot.html (Accessed: 23 April 2024). 
 
-https://numpy.org/doc/stable/user/absolute_beginners.html
+<a id="60">[60]</a> Numpy.random.seed# (no date) numpy.random.seed - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/random/generated/numpy.random.seed.html (Accessed: 23 April 2024). 
 
-https://matplotlib.org/stable/tutorials/pyplot.html
+<a id="61">[61]</a> NumPy (no date) Random sampling (numpy.random) - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/random/index.html (Accessed: 23 April 2024). 
 
-https://numpy.org/doc/stable/reference/random/generated/numpy.random.seed.html
+<a id="62">[62]</a> NumPy (no date) numpy.random.normal - NumPy v2.1.dev0 Manual. Available at: https://numpy.org/devdocs/reference/random/generated/numpy.random.normal.html (Accessed: 23 April 2024). 
 
-https://numpy.org/doc/stable/reference/random/index.html
+<a id="63">[63]</a> W3Schools (no date) Matplotlib histograms. Available at: https://www.w3schools.com/python/matplotlib_histograms.asp (Accessed: 23 April 2024). 
 
-https://numpy.org/devdocs/reference/random/generated/numpy.random.normal.html
+<a id="64">[64]</a> Quick start guide (no date) Matplotlib 3.8.4 documentation. Available at: https://matplotlib.org/stable/users/explain/quick_start.html# (Accessed: 23 April 2024). 
 
-https://www.w3schools.com/python/matplotlib_histograms.asp
+<a id="65">[65]</a> Joris (2011) Secondary axis with twinx(): How to add to legend, Stack Overflow. Available at: https://stackoverflow.com/questions/5484922/secondary-axis-with-twinx-how-to-add-to-legend (Accessed: 23 April 2024). 
 
-https://matplotlib.org/stable/users/explain/quick_start.html#
+<a id="66">[66]</a> Legend and legend_handler (no date) Matplotlib 2.0.2 documentation. Available at: https://matplotlib.org/2.0.2/api/legend_api.html (Accessed: 23 April 2024). 
 
-https://stackoverflow.com/questions/5484922/secondary-axis-with-twinx-how-to-add-to-legend
-
-https://matplotlib.org/2.0.2/api/legend_api.html 
-
-https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.tick_params.html
-
-https://atu-main-mdl-euwest1.s3.eu-west-1.amazonaws.com/4a/2f/4a2fd8d23088f9d87b69902e5a31076629cf05cb?response-content-disposition=inline%3B%20filename%3D%22Lab%2008%20matplotlb.pdf%22&response-content-type=application%2Fpdf&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWRN6GJFLWCMOG6H7%2F20240411%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20240411T000822Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21578&X-Amz-Signature=cbe2d3cf087c51d671525a4791517ee76ee5bdc276b3cede73b871bd95c9aafc 
+<a id="67">[67]</a> Matplotlib.axes.axes.tick_params (no date) Matplotlib 3.8.4 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.tick_params.html (Accessed: 23 April 2024). 
