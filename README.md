@@ -25,8 +25,8 @@ The program helloworld.py was the first program created during this course. It i
 
 ### Weekly Tasks 2: [bank.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/bank.py)
 
-The program bank.py displays a message for the user to enter two amounts in cents. However, the value must be an integer. For instance, €10.33 should be input as 1033. After the two values are entered by the user, the program calculates and outputs the sum of the two values.  
-The program first sum up the two values and then split the values into two parts. The first part is the integer part (using the integer division operator in Python // to divide the integer part of the number by 100) and the second part is the decimal part (using the operator % to return the remainder of a division by 100). Finally, the two parts (integer and decimal) are printed out using the function print () by concatenating both parts using an f-string formatting to interpolate the two values within a string.
+The program bank.py displays a message for the user to enter two amounts in cents [[5]](#5). However, the value must be an integer. For instance, €10.33 should be input as 1033 [[6]](#6). After the two values are entered by the user, the program calculates and outputs the sum of the two values.  
+The program first sum up the two values and then split the values into two parts. The first part is the integer part (using the integer division operator in Python // to divide the integer part of the number by 100) and the second part is the decimal part (using the operator % to return the remainder of a division by 100) [[7]](#7). Finally, the two parts (integer and decimal) are printed out using the function print () by concatenating both parts using an f-string formatting to interpolate the two values within a string [[8]](#8) [[9]](#9).
 
 
 ### Weekly Tasks 3: [accounts.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/accounts.py)
@@ -37,11 +37,11 @@ The program workflow follows these steps:
 
 <ol>
 <li>User is prompt to input their account number.</li>
-<li>The program converts the number into a string and counts the number of characters.</li>
+<li>The program converts the number into a string and counts the number of characters [[10]](#10) [[11]](#11).</li>
 <li>It calculates the number of characters that need to be convert to 'X' by subtracting 4 from the number of characters.</li>
-<li>It isolates the last 4 digits of the account number.</li>
-<li>It converts all the characters except the last 4 to "X".</li>
-<li>Then it outputs the modified account number with all characters displaying X except for the last 4 digits, which are displayed as they appear in the account number.</li>
+<li>It isolates the last 4 digits of the account number [[12]](#12).</li>
+<li>It converts all the characters except the last 4 to "X" [[13]](#13) [[14]](#14).</li>
+<li>Then it outputs the modified account number with all characters displaying X except for the last 4 digits, which are displayed as they appear in the account number [[15]](#15).</li>
 </ol>
 
 This program also accepts an account number of any number of characters.
@@ -49,7 +49,7 @@ This program also accepts an account number of any number of characters.
 
 ### Weekly Tasks 4: [collatz.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/collatz.py)
 
-The collatz.py program illustrates the calculation process for the [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), a famours unresolved mathematical problem. Despite being verified for all positive integers up to 2.95 x 10^20, it lacks a general proof. The program requests that a user input any positive integer and check if the number is even or odd. If the number is even, then the program divides the number by 2. But if the number is odd, then the number is multiplied by 3 and added by 1. The numbers are generated, stored in a sequence, and continuously reprocessed through the conditional check and calculation until the final result is 1.
+The collatz.py program illustrates the calculation process for the [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), a famours unresolved mathematical problem [[16]](#16) [[17]](#17). Despite being verified for all positive integers up to 2.95 x 10^20, it lacks a general proof [[18]](#18). The program requests that a user input any positive integer and check if the number is even or odd [[19]](#19) [[20]](#20). If the number is even, then the program divides the number by 2. But if the number is odd, then the number is multiplied by 3 and added by 1. The numbers are generated, stored in a sequence, and continuously reprocessed through the conditional check and calculation until the final result is 1 [[21]](#21) [[22]](#22) [[23]](#23) [[24]](#24).
 
 
 ###  Weekly Tasks 5: [weekday.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/weekday.py)
@@ -113,55 +113,45 @@ To further develop myself and prepare to dive into AI in the future, I started t
 
 <a id="4">[4]</a> Nick  Parlante (2020) Print() and standard out, Computer Science. Available at: https://cs.stanford.edu/people/nick/py/python-print.html (Accessed: 22 April 2024). 
 
-<a id="5">[5]</a> VanderPlas, J. (2016) A whirlwind tour of python, A Whirlwind Tour of Python | A Whirlwind Tour of Python. Available at: https://jakevdp.github.io/WhirlwindTourOfPython/ (Accessed: 22 April 2024).
+<a id="5">[5]</a> Built-in functions (2024) Python documentation. Available at: https://docs.python.org/3/library/functions.html#input (Accessed: 22 April 2024). 
 
-<a id="6">[6]</a> Built-in functions (2024) Python documentation. Available at: https://docs.python.org/3/library/functions.html#input (Accessed: 22 April 2024). 
+<a id="6">[6]</a> Python int() (no date) Programiz. Available at: https://www.programiz.com/python-programming/methods/built-in/int (Accessed: 22 April 2024). 
 
-<a id="7">[7]</a> W3Schools (2024) Python input() function. Available at: https://www.w3schools.com/python/ref_func_input.asp (Accessed: 22 April 2024). 
+<a id="7">[7]</a> Ramuglia, G. (2024) Python integer division: How to use the // floor operator, Linux Dedicated Server Blog. Available at: https://ioflood.com/blog/python-integer-division-how-to-use-the-floor-operator/#:~:text=Python%20provides%20two%20types%20of,in%203%20(integer%20division) (Accessed: 22 April 2024). 
 
 <a id="8">[8]</a> Real Python (2023) Python’s F-string for string interpolation and formatting, Real Python. Available at: https://realpython.com/python-f-strings/ (Accessed: 22 April 2024).
 
-<a id="9">[9]</a> Real Python (2024) Python string formatting best practices, Real Python. Available at: https://realpython.com/python-string-formatting/ (Accessed: 22 April 2024). 
+<a id="9">[9]</a> Nair, A. (2023) What does {:02d} mean in python?, AskPython. Available at: https://www.askpython.com/python/string/02d-in-python (Accessed: 22 April 2024). 
 
-<a id="10">[10]</a> Python int() (no date) Programiz. Available at: https://www.programiz.com/python-programming/methods/built-in/int (Accessed: 22 April 2024). 
+<a id="10">[10]</a> VanderPlas, J. (2016) A whirlwind tour of python, A Whirlwind Tour of Python | A Whirlwind Tour of Python. Available at: https://jakevdp.github.io/WhirlwindTourOfPython/ (Accessed: 22 April 2024).
 
-<a id="11">[11]</a> W3Schools (No date) Python string formatting. Available at: https://www.w3schools.com/python/python_string_formatting.asp (Accessed: 22 April 2024). 
+<a id="11">[11]</a> W3Schools (no date) Python string length. Available at: https://www.w3schools.com/python/gloss_python_string_length.asp (Accessed: 22 April 2024). 
 
-<a id="12">[12]</a> Nair, A. (2023) What does {:02d} mean in python?, AskPython. Available at: https://www.askpython.com/python/string/02d-in-python (Accessed: 22 April 2024). 
+<a id="12">[12]</a> W3Schools (no date) Python - slicing strings. Available at: https://www.w3schools.com/python/python_strings_slicing.asp (Accessed: 22 April 2024). 
 
-<a id="13">[13]</a> Video: pands 2.4 first programs.mp4 (2024) GitHub. Available at: https://atlantictu-my.sharepoint.com/:v:/g/personal/andrew_beatty_atu_ie/ETmXpdhA8etHobd2Vm8ozZMBWYqHaNq0Cu94nHR4pOyz9A?e=6Tnuf3&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopiedShareExpTreatment%2Eview (Accessed: 22 April 2024). 
+<a id="13">[13]</a> Mallari, R. (2022) How can I dynamically mask all digits except the last 4 always?, Stack Overflow. Available at: https://stackoverflow.com/questions/70258603/how-can-i-dynamically-mask-all-digits-except-the-last-4-always (Accessed: 22 April 2024). 
 
-<a id="14">[14]</a> Ramuglia, G. (2024) Python integer division: How to use the // floor operator, Linux Dedicated Server Blog. Available at: https://ioflood.com/blog/python-integer-division-how-to-use-the-floor-operator/#:~:text=Python%20provides%20two%20types%20of,in%203%20(integer%20division) (Accessed: 22 April 2024). 
+<a id="14">[14]</a> W3Schools (no date) Python operators. Available at: https://www.w3schools.com/python/python_operators.asp (Accessed: 22 April 2024). 
 
 <a id="15">[15]</a> W3Schools (no date) Python - string concatenation. Available at: https://www.w3schools.com/python/python_strings_concatenate.asp (Accessed: 22 April 2024). 
 
-<a id="16">[16]</a> Real Python (2024) Python string formatting best practices, Real Python. Available at: https://realpython.com/python-string-formatting/ (Accessed: 22 April 2024). 
+<a id="16">[16]</a> Delta Flyer (2015) Making a Collatz program automate the boring stuff, Stack Overflow. Available at: https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff (Accessed: 22 April 2024).
 
-<a id="17">[17]</a> W3Schools (no date) Python - slicing strings. Available at: https://www.w3schools.com/python/python_strings_slicing.asp (Accessed: 22 April 2024). 
+<a id="17">[17]</a> Gupta, C. (2023) Exploring the Collatz conjecture with python, Medium. Available at: https://medium.com/@chakshugupta774/exploring-the-collatz-conjecture-with-python-7c5d9f31d233 (Accessed: 23 April 2024).
 
-<a id="18">[18]</a> W3Schools (no date a) Python string length. Available at: https://www.w3schools.com/python/gloss_python_string_length.asp (Accessed: 22 April 2024). 
+<a id="18">[18]</a> Collatz conjecture (2024) Wikipedia. Available at: https://en.wikipedia.org/wiki/Collatz_conjecture (Accessed: 22 April 2024).
 
-<a id="19">[19]</a> Mallari, R. (2022) How can I dynamically mask all digits except the last 4 always?, Stack Overflow. Available at: https://stackoverflow.com/questions/70258603/how-can-i-dynamically-mask-all-digits-except-the-last-4-always (Accessed: 22 April 2024). 
+<a id="19">[19]</a> Python program to check if a number is positive, negative, or 0: Example (2021) Toppr. Available at: https://www.toppr.com/guides/python-guide/examples/python-examples/decision-making-and-loops/positive-negative-zero/python-program-check-number-positive-negative-0/#:~:text=Python%20tests%20whether%20a%20number,Otherwise%2C%20it%20will%20be%20negative (Accessed: 23 April 2024). 
 
-<a id="20">[20]</a> W3Schools (no date a) Python operators. Available at: https://www.w3schools.com/python/python_operators.asp (Accessed: 22 April 2024). 
+<a id="20">[20]</a> Python program to check if a number is odd or even: Python even or odd (2021) Toppr. Available at: https://www.toppr.com/guides/python-guide/examples/python-examples/python-program-to-check-if-a-number-is-odd-or-even/#:~:text=If%20a%20number%20is%20completely,then%20the%20number%20is%20odd (Accessed: 23 April 2024). 
 
-<a id="21">[21]</a> Collatz conjecture (2024) Wikipedia. Available at: https://en.wikipedia.org/wiki/Collatz_conjecture (Accessed: 22 April 2024). 
+<a id="21">[21]</a> Real Python (2022) Python ‘while’ loops (indefinite iteration), Real Python. Available at: https://realpython.com/python-while-loop/ (Accessed: 22 April 2024). 
 
-<a id="22">[22]</a> Python if ... else (no date) Python Conditions. Available at: https://www.w3schools.com/python/python_conditions.asp (Accessed: 22 April 2024). 
+<a id="22">[22]</a> GeeksforGeeks (2023) Python: Printing string with double quotes. Available at: https://www.geeksforgeeks.org/python-printing-string-with-double-quotes/ (Accessed: 23 April 2024). 
 
-<a id="23">[23]</a> Real Python (2022) Python ‘while’ loops (indefinite iteration), Real Python. Available at: https://realpython.com/python-while-loop/ (Accessed: 22 April 2024). 
+<a id="23">[23]</a> Python if ... else (no date) Python Conditions. Available at: https://www.w3schools.com/python/python_conditions.asp (Accessed: 22 April 2024). 
 
-<a id="24">[24]</a> Delta Flyer (2015) Making a Collatz program automate the boring stuff, Stack Overflow. Available at: https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff (Accessed: 22 April 2024). 
-
-<a id="25">[25]</a> Gupta, C. (2023) Exploring the Collatz conjecture with python, Medium. Available at: https://medium.com/@chakshugupta774/exploring-the-collatz-conjecture-with-python-7c5d9f31d233 (Accessed: 23 April 2024). 
-
-<a id="26">[26]</a> Python program to check if a number is positive, negative, or 0: Example (2021) Toppr. Available at: https://www.toppr.com/guides/python-guide/examples/python-examples/decision-making-and-loops/positive-negative-zero/python-program-check-number-positive-negative-0/#:~:text=Python%20tests%20whether%20a%20number,Otherwise%2C%20it%20will%20be%20negative (Accessed: 23 April 2024). 
-
-<a id="27">[27]</a> Python program to check if a number is odd or even: Python even or odd (2021) Toppr. Available at: https://www.toppr.com/guides/python-guide/examples/python-examples/python-program-to-check-if-a-number-is-odd-or-even/#:~:text=If%20a%20number%20is%20completely,then%20the%20number%20is%20odd (Accessed: 23 April 2024). 
-
-<a id="28">[28]</a> LeBrun (2016) While loop with IF/else statement in Python, Stack Overflow. Available at: https://stackoverflow.com/questions/36843103/while-loop-with-if-else-statement-in-python (Accessed: 23 April 2024). 
-
-<a id="29">[29]</a> GeeksforGeeks (2023) Python: Printing string with double quotes. Available at: https://www.geeksforgeeks.org/python-printing-string-with-double-quotes/ (Accessed: 23 April 2024). 
+<a id="24">[24]</a> LeBrun (2016) While loop with IF/else statement in Python, Stack Overflow. Available at: https://stackoverflow.com/questions/36843103/while-loop-with-if-else-statement-in-python (Accessed: 23 April 2024). 
 
 <a id="30">[30]</a> Vishal (2022) Python get the day of the Week, PYnative. Available at: https://pynative.com/python-get-the-day-of-week/#h-get-the-weekday-name-of-a-date-using-strftime-method (Accessed: 23 April 2024). 
 
