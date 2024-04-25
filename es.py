@@ -5,41 +5,41 @@
             
 import sys
 
-# define the count_e function
-def count_e (file_name):
-
+# Define a function to count lowercase and uppercase 'e' in a given file
+def count_e(file_name):
     try:
-        # read the file
+        # Open the file in read mode
         with open(file_name, 'r') as file:
+            # Read the entire file content into a string
             data = file.read()
-            # count lowercase and uppercase 'e'
-            return data.count('e') + data.count('E')  
-    # Exception for error file not found
+            # Count occurrences of lowercase 'e' and uppercase 'E'
+            return data.count('e') + data.count('E')
     except FileNotFoundError:
-       print (f'Error: The File {file_name} does not exist')
-       sys.exit(1)
-
-# define the main function for the command line arguments 
-def main():
-    
-    # confirm the command line argument.
-    if len(sys.argv) != 2:
-        print('Error: You need to input an argument text file')
+        # Handle file not found error
+        print(f'Error: The file {file_name} does not exist')
         sys.exit(1)
 
+# Define the main function to process command-line arguments
+def main():
+    # Check if the correct number of command-line arguments is provided
+    if len(sys.argv) != 2:
+        print('Error: You need to provide a text file as an argument')
+        sys.exit(1)
     
+    # Extract the file name from the command-line argument
     file_name = sys.argv[1]
 
-    # confirm the argument is a ".txt" file
+    # Check if the provided file has a .txt extension
     if not file_name.endswith('.txt'):
-        print("Error: Input file must be a .txt file extension.")
+        print("Error: Input file must have a .txt file extension.")
         sys.exit(1)
     
-    # count e(s) in the file
+    # Count occurrences of 'e' in the specified file
     e_count = count_e(file_name)
+    
+    # Print the total count of 'e' (case-insensitive) in the file
     print(e_count)
 
+# Execute the main function if the script is run directly
 if __name__ == "__main__":
     main()
-
-# End of the Program

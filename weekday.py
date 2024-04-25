@@ -1,28 +1,22 @@
-# Program weekday.py
-# This program reads in the day that is today
-# and outputs whether or not is a weekday.
+# weekday.py
+# This program determines whether today is a weekday or weekend based on the current date.
 # Author: Filipe Carvalho
 
-#import datetime
+# Import the datetime module from datetime library
 from datetime import datetime
 
-# get current datetime
-day_time = datetime.now()
-# print('Datetime is: ', dt) - This was used to test the imported function.
+# Get the current date and time
+current_datetime = datetime.now()
 
-# define the days of the weekend
-# the group of weekend is easier 
-# to define as there are just two days
-weekend = ('Saturday','Sunday')
+# Define the days that constitute the weekend (Saturday and Sunday)
+weekend_days = ('Saturday', 'Sunday')
 
-# use if to confirm if today's day is a weekend
-if day_time.strftime('%A') in weekend:
-   # print message that's a weekend.
-   print('It is the weekend, yay!')
-# else is used in case the previous check is not true,
-# which the day then would be a weekday.
+# Check if today's day name (full name) is in the weekend_days tuple
+if current_datetime.strftime('%A') in weekend_days:
+    # Print a message indicating it's the weekend
+    print('It is the weekend, yay!')
 else:
-   # print message that's a weekday.
-   print ('Yes, unfortunately today is a weekday.')
+    # Print a message indicating it's a weekday
+    print('Yes, unfortunately today is a weekday.')
 
 # End of the program

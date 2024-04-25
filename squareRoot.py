@@ -1,43 +1,45 @@
-# Program squareroot.py
-# This program reads in a number 
-# and output the approximatelly square root of it
-# using Newton's method.
+# squareroot.py
+# This program reads in a positive number and approximates its square root using Newton's method.
 # Author: Filipe Carvalho
 
-# function n_sqr is defined.
-def sqrt ():
-    
-    # Input the number that will have its squareroot guessed
-    # number is transformed to a float type
-    positive_number = float(input('Please enter a positive number:'))
+# Define the sqrt function to calculate the square root using Newton's method
+def sqrt():
+    # Prompt user to input a positive number and convert it to a float
+    positive_number = float(input('Please enter a positive number: '))
 
-    # this is to ensure the input is positive
+    # Check if the input number is positive
     if positive_number <= 0:
         print('Please enter a positive number.')
         return None
     
-    # Assuming that the sqrt of the guessed number as being itself
+    # Initial guess for the square root (starting point for approximation)
     approximation = positive_number
 
-    # This is to start the counter for the number of iterations
+    # Initialize iteration counter
     iteration_count = 0
 
-    # While loop to guess the square root based on Newton's method 
+    # Iterate using Newton's method to approximate the square root
     while True:
-        # Approximate to a closer estimation
-        new_approximation = 0.5 * (approximation + positive_number/approximation) 
-        # Verifying if there is closeness to the previous value      
-        if (abs(new_approximation - approximation)<1e-10):             
+        # Update the approximation to a closer estimate
+        new_approximation = 0.5 * (approximation + positive_number / approximation)
+        
+        # Check if the difference between the new and previous approximation is small enough
+        if abs(new_approximation - approximation) < 1e-10:
             break
-        # Update the approximation and iteration counter.
-        approximation = new_approximation                     
+        
+        # Update the approximation for the next iteration
+        approximation = new_approximation
+        
+        # Increment the iteration counter
         iteration_count += 1
-    # Output the result
-    print(f'The square root of {positive_number} is approx. {new_approximation}.') 
     
+    # Output the approximate square root
+    print(f'The square root of {positive_number} is approximately {new_approximation}.')
+    
+    # Return the final approximation (although it's not explicitly used later)
     return approximation
 
-# Call the sqrt function to execute the square root calculation.
-sqrt()   
+# Call the sqrt function to execute the square root calculation
+sqrt()
 
 # End of the program

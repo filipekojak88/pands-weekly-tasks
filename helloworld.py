@@ -1,12 +1,9 @@
-# Program helloworld.py
-# This is a simple program created in Python 
-# that prints "Hello World" when is run
+# helloworld.py
+# This program demonstrates a simple Python script that prints "Hello World" when executed.
 # Author: Filipe Carvalho
 
-# The print () function is used in this case to display 
-# the strings (text) to the user when this program
-# helloworld.py is executed.
-
-print ("Hello World!")
+# The following line uses the print() function to display the string "Hello World!"
+# This string will be outputted to the console when the program is executed.
+print("Hello World!")
 
 # End of the program
