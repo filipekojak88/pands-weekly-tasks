@@ -54,28 +54,28 @@ The collatz.py program illustrates the calculation process for the [Collatz conj
 
 ###  Weekly Tasks 5: [weekday.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/weekday.py)
 
-This program determines if the current date is a weekday or a weekend. The datetime module is imported and used in conjunction with the function now() to determine today's date. Since this program only considers two groups, weekdays and weekends, the program defines weekends as a group consisting of just two elements "Saturday" and "Sunday". The program then uses strftime() method from datetime module to obtain the day's name from today's date and uses %A to ensure that the full name is returned. Finally the program verifies if the today's day is in the weekend group. If it is in the weekend group, then it outputs a message confirming it is the weekend. Otherwise, it is a weekday, and it outputs a message confirming it is a weekday.
+This program determines if the current date is a weekday or a weekend. The datetime module is imported and used in conjunction with the function now() to determine today's date [[25]](#25) [[26]](#26). Since this program only considers two groups, weekdays and weekends, the program defines weekends as a group consisting of just two elements "Saturday" and "Sunday" [[27]](#27). The program then uses strftime() method from datetime module to obtain the day's name from today's date and uses %A to ensure that the full name is returned. Finally the program verifies if the today's day is in the weekend group [[26]](#26). If it is in the weekend group, then it outputs a message confirming it is the weekend. Otherwise, it is a weekday, and it outputs a message confirming it is a weekday [[23]](#23).
 
 
 ### Weekly Tasks 6: [squareroot.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/squareRoot.py)
 
-This program estimates the square root of a positive number using [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method). The squareroot.py program checks if the value is positive, and if it is not, it displays a message to the user that a positive number is required, and the program terminates. The main part of the program is the loop used to refine the approximation of the square root. The program starts with a guess, which is the number itself, and iterates to improve the guess until the change between successive approximations is below a determined limit, indicating that the estimation is accurate.
+This program estimates the square root of a positive number using [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method) [[28]](#28) [[29]](#29) [[30]](#30). The squareroot.py program checks if the value is positive, and if it is not, it displays a message to the user that a positive number is required, and the program terminates  [[31]](#31) [[32]](#32) [[33]](#33) [[34]](#34). The main part of the program is the loop used to refine the approximation of the square root [[35]](#35) [[36]](#36). The program starts with a guess, which is the number itself, and iterates to improve the guess until the change between successive approximations is below a determined limit, indicating that the estimation is accurate [[37]](#37).
 
 
 ### Weekly Tasks 7: [es.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/es.py) 
 
 The program es.py counts the number of times that the letter 'e' (lowercase and uppercase) appears in a text file. It was set up so that the user provides the file name on the command-line. The program is designed with two functions count_e(file_name) and main():
 <ol>
-<li>The first one opens the file and reads it, counting and returning the total number of lowercase and uppercase 'e' found in the text file. It checks to confirm that the provided file name exists, and if it does not, then an error message is provided, and the program terminates.</li>
-<li>The second function works as an entry point. It verifies that a command-line argument was provided by the user and that the file has a '.txt' extension. Any errors regarding these two verifications are fed back to the user through an error message, and program terminates. If everything works well, then the count of 'e'(lowercase and uppercase) for the input file is output by the program.</li> 
+<li>The first one opens the file and reads it, counting and returning the total number of lowercase and uppercase 'e' found in the text file [[38]](#38) [[39]](#39) [[40]](#40). It checks to confirm that the provided file name exists, and if it does not, then an error message is provided, and the program terminates [[41]](#41) [[42]](#42) [[43]](#43).</li>
+<li>The second function works as an entry point. It verifies that a command-line argument was provided by the user and that the file has a '.txt' extension [[44]](#44) [[45]](#45). Any errors regarding these two verifications are fed back to the user through an error message, and program terminates [[46]](#46). If everything works well, then the count of 'e'(lowercase and uppercase) for the input file is output by the program [[47]](#47).</li> 
 </ol>
 
-Note: To test this program, the text file [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt) was added to pands-weekly-tasks, and a total of 59646 occurrences of the letter "e" were identified.
+Note: To test this program, the text file [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt) was added to pands-weekly-tasks, and a total of 59646 occurrences of the letter "e" were identified [[48]](#48).
 
 
 ### Weekly Tasks 8: [plottask.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/plottask.py)
 
-This program creates a bar graph (histogram) showing how often certain numbers pop up in a set of 1000 numbers that behave like a typical set of data with an average of 5 and some variety around that average. Alongside this, it draws a curved line (h (x) = x^3 function) showing what happens when you take each number from 0 to 10, multiply it by itself three times, and plot the result. The chart is also improved with two y-axis to provide a better visualization of the histogram and line plot on the same graph. The legends for both plots are grouped into the same legend for a cleaner and more organized presentation.
+This program creates a bar graph (histogram) showing how often certain numbers pop up in a set of 1000 numbers that behave like a typical set of data with an average of 5 and some variety around that average [[49]](#49) [[50]](#50) [[51]](#51) [[52]](#52) [[53]](#53). Alongside this, it draws a curved line (h (x) = x^3 function) showing what happens when you take each number from 0 to 10, multiply it by itself three times, and plot the result [[54]](#54). The chart is also improved with two y-axis to provide a better visualization of the histogram and line plot on the same graph [[55]](#55). The legends for both plots are grouped into the same legend for a cleaner and more organized presentation [[56]](#56) [[57]](#57).
 
 ## Use of these tasks
 
@@ -153,78 +153,68 @@ To further develop myself and prepare to dive into AI in the future, I started t
 
 <a id="24">[24]</a> LeBrun (2016) While loop with IF/else statement in Python, Stack Overflow. Available at: https://stackoverflow.com/questions/36843103/while-loop-with-if-else-statement-in-python (Accessed: 23 April 2024). 
 
-<a id="30">[30]</a> Vishal (2022) Python get the day of the Week, PYnative. Available at: https://pynative.com/python-get-the-day-of-week/#h-get-the-weekday-name-of-a-date-using-strftime-method (Accessed: 23 April 2024). 
+<a id="25">[25]</a> Kumar, N. (2018) Python modules: What are and how to import modules in python?, DataCamp. Available at: https://www.datacamp.com/tutorial/modules-in-python (Accessed: 23 April 2024). 
 
-<a id="31">[31]</a> Datetime - basic date and time types (no date) Python documentation. Available at: https://docs.python.org/3/library/datetime.html (Accessed: 23 April 2024). 
+<a id="26">[26]</a> Datetime - basic date and time types (no date) Python documentation. Available at: https://docs.python.org/3/library/datetime.html (Accessed: 23 April 2024).
 
-<a id="32">[32]</a> Real Python (2023) Lists and tuples in Python, Real Python. Available at: https://realpython.com/python-lists-tuples/ (Accessed: 23 April 2024). 
+<a id="27">[27]</a> Real Python (2023) Lists and tuples in Python, Real Python. Available at: https://realpython.com/python-lists-tuples/ (Accessed: 23 April 2024). 
 
-<a id="33">[33]</a> Kumar, N. (2018) Python modules: What are and how to import modules in python?, DataCamp. Available at: https://www.datacamp.com/tutorial/modules-in-python (Accessed: 23 April 2024). 
+<a id="28">[28]</a> Newton’s method (no date) Wikipedia. Available at: https://en.wikipedia.org/wiki/Newton%27s_method (Accessed: 23 April 2024). 
 
-<a id="34">[34]</a> 6. modules (no date) Python documentation. Available at: https://docs.python.org/3/tutorial/modules.html (Accessed: 23 April 2024). 
+<a id="29">[29]</a> Find root of a number using Newton’s method (2023) GeeksforGeeks. Available at: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/ (Accessed: 23 April 2024). 
 
-<a id="35">[35]</a> Weekday function in Python (no date) weekday function in Python | Pythontic.com. Available at: https://pythontic.com/datetime/date/weekday (Accessed: 23 April 2024). 
+<a id="30">[30]</a> 8.6. Newton’s method (no date) 8.6. Newton’s Method - How to Think like a Computer Scientist: Interactive Edition. Available at: https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html (Accessed: 23 April 2024). 
 
-<a id="36">[36]</a> Newton’s method (no date) Wikipedia. Available at: https://en.wikipedia.org/wiki/Newton%27s_method (Accessed: 23 April 2024). 
+<a id="31">[31]</a> Defining your own python function (2023) Real Python. Available at: https://realpython.com/defining-your-own-python-function/ (Accessed: 23 April 2024). 
 
-<a id="37">[37]</a> Find root of a number using Newton’s method (2023) GeeksforGeeks. Available at: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/ (Accessed: 23 April 2024). 
+<a id="32">[32]</a> Singh, R. (2023) Python scientific notation, Scaler Topics. Available at: https://www.scaler.com/topics/python-scientific-notation/ (Accessed: 23 April 2024). 
 
-<a id="38">[38]</a> 8.6. Newton’s method (no date) 8.6. Newton’s Method - How to Think like a Computer Scientist: Interactive Edition. Available at: https://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html (Accessed: 23 April 2024). 
+<a id="33">[33]</a> Ravikiran A S (2023) Understanding float in python [with examples], Simplilearn.com. Available at: https://www.simplilearn.com/tutorials/python-tutorial/float-in-python#:~:text=Float%20is%20a%20function%20or,architecture%20subject%20to%20available%20memory (Accessed: 23 April 2024). 
 
-<a id="39">[39]</a> Academy, I. (2023) Best practices for variable assignments in Python, Medium. Available at: https://medium.com/@instailyacademy/best-practices-for-variable-assignments-in-python-dd63c93bd68f (Accessed: 23 April 2024). 
+<a id="34">[34]</a> Kumar, P. (2023) Python return statement, AskPython. Available at: https://www.askpython.com/python/python-return-statement (Accessed: 23 April 2024). 
 
-<a id="40">[40]</a> Defining your own python function (2023) Real Python. Available at: https://realpython.com/defining-your-own-python-function/ (Accessed: 23 April 2024). 
+<a id="35">[35]</a> Training, W. by: Pierian (2023) Counting in a python loop: A beginner’s guide, Pierian Training. Available at: https://pieriantraining.com/counting-in-a-python-loop-a-beginners-guide/#:~:text=To%20count%20down%20with%20a,and%20decrement%20it%20by%20one.&text=In%20this%20example%2C%20we%20start%20with%20a%20counter%20value%20of%205 (Accessed: 23 April 2024). 
 
-<a id="41">[41]</a> Singh, R. (2023) Python scientific notation, Scaler Topics. Available at: https://www.scaler.com/topics/python-scientific-notation/ (Accessed: 23 April 2024). 
+<a id="36">[36]</a> Tagliaferri, L. (2021) How to use break, continue, and pass statements when working with loops in python 3, DigitalOcean. Available at: https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3 (Accessed: 23 April 2024). 
 
-<a id="42">[42]</a> Tagliaferri, L. (2021) How to use break, continue, and pass statements when working with loops in python 3, DigitalOcean. Available at: https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3 (Accessed: 23 April 2024). 
+<a id="37">[37]</a> (No date) Chatgpt. Available at: https://chat.openai.com/ (Accessed: 22 April 2024). 
 
-<a id="43">[43]</a> Kumar, P. (2023) Python return statement, AskPython. Available at: https://www.askpython.com/python/python-return-statement (Accessed: 23 April 2024). 
+<a id="38">[38]</a> Beatty (2024) Pands-course-material/jupyternotebooks/topic07-files.ipynb at main · Andrewbeattycourseware/pands-course-material, GitHub. Available at: https://github.com/andrewbeattycourseware/pands-course-material/blob/main/jupyternotebooks/topic07-files.ipynb (Accessed: 23 April 2024). 
 
-<a id="44">[44]</a> Ravikiran A S (2023) Understanding float in python [with examples], Simplilearn.com. Available at: https://www.simplilearn.com/tutorials/python-tutorial/float-in-python#:~:text=Float%20is%20a%20function%20or,architecture%20subject%20to%20available%20memory (Accessed: 23 April 2024). 
+<a id="39">[39]</a> Python count() function: Why do we use Python string count() function?  (2021) Toppr. Available at: https://www.toppr.com/guides/python-guide/references/methods-and-functions/methods/string/count/python-string-count/#:~:text=How%20do%20you%20count%20characters,only%20a%20single%20substring%20parameter (Accessed: 23 April 2024). 
 
-<a id="45">[45]</a> Training, W. by: Pierian (2023) Counting in a python loop: A beginner’s guide, Pierian Training. Available at: https://pieriantraining.com/counting-in-a-python-loop-a-beginners-guide/#:~:text=To%20count%20down%20with%20a,and%20decrement%20it%20by%20one.&text=In%20this%20example%2C%20we%20start%20with%20a%20counter%20value%20of%205 (Accessed: 23 April 2024). 
+<a id="40">[40]</a> Real Python (2023) The python return statement: Usage and best practices, Real Python. Available at: https://realpython.com/python-return-statement/#returning-none-explicitly (Accessed: 23 April 2024). 
 
-<a id="46">[46]</a> (No date) Chatgpt. Available at: https://chat.openai.com/ (Accessed: 22 April 2024). 
+<a id="41">[41]</a> Built-in exceptions (no date) Python documentation. Available at: https://docs.python.org/3/library/exceptions.html (Accessed: 23 April 2024). 
 
-<a id="47">[47]</a> Beatty (2024) Pands-course-material/jupyternotebooks/topic07-files.ipynb at main · Andrewbeattycourseware/pands-course-material, GitHub. Available at: https://github.com/andrewbeattycourseware/pands-course-material/blob/main/jupyternotebooks/topic07-files.ipynb (Accessed: 23 April 2024). 
+<a id="42">[42]</a> GeeksforGeeks (2023) How to fix filenotfounderror in python, GeeksforGeeks. Available at: https://www.geeksforgeeks.org/why-am-i-getting-a-filenotfounderror-in-python/ (Accessed: 23 April 2024). 
 
-<a id="48">[48]</a> Python count() function: Why do we use Python string count() function?  (2021) Toppr. Available at: https://www.toppr.com/guides/python-guide/references/methods-and-functions/methods/string/count/python-string-count/#:~:text=How%20do%20you%20count%20characters,only%20a%20single%20substring%20parameter (Accessed: 23 April 2024). 
+<a id="43">[43]</a> Ali, M. (2023) The ultimate guide to command line arguments in python scripts, Medium. Available at: https://moez-62905.medium.com/the-ultimate-guide-to-command-line-arguments-in-python-scripts-61c49c90e0b3 (Accessed: 23 April 2024). 
 
-<a id="49">[49]</a> Ali, M. (2023) The ultimate guide to command line arguments in python scripts, Medium. Available at: https://moez-62905.medium.com/the-ultimate-guide-to-command-line-arguments-in-python-scripts-61c49c90e0b3 (Accessed: 23 April 2024). 
+<a id="44">[44]</a> Python - command-line arguments (no date) Tutorialspoint. Available at: https://www.tutorialspoint.com/python/python_command_line_arguments.htm (Accessed: 23 April 2024). 
 
-<a id="50">[50]</a> Python - command-line arguments (no date) Tutorialspoint. Available at: https://www.tutorialspoint.com/python/python_command_line_arguments.htm (Accessed: 23 April 2024). 
+<a id="45">[45]</a> Wkoomson (2011) How can I check the extension of a file?, Stack Overflow. Available at: https://stackoverflow.com/questions/5899497/how-can-i-check-the-extension-of-a-file (Accessed: 23 April 2024).
 
-<a id="51">[51]</a> Handling errors (no date) User input and error handling. Available at: http://hplgit.github.io/primer.html/doc/pub/input/._input-solarized007.html (Accessed: 23 April 2024). 
+<a id="46">[46]</a> Handling errors (no date) User input and error handling. Available at: http://hplgit.github.io/primer.html/doc/pub/input/._input-solarized007.html (Accessed: 23 April 2024). 
 
-<a id="52">[52]</a> Wkoomson (2011) How can I check the extension of a file?, Stack Overflow. Available at: https://stackoverflow.com/questions/5899497/how-can-i-check-the-extension-of-a-file (Accessed: 23 April 2024). 
+<a id="47">[47]</a> McAleer, K. (2023) What does the python ‘if name Equals Main’ construct do?: Theserverside, TheServerSide.com. Available at: https://www.theserverside.com/tip/What-does-the-Python-if-name-equals-main-construct-do#:~:text=to%20the%20console.-,The%20if%20__name__%20%3D%3D%20%22__main__%22%3A,it%20would%20not%20execute%20automatically. (Accessed: 23 April 2024). 
 
-<a id="53">[53]</a> GeeksforGeeks (2023) How to fix filenotfounderror in python, GeeksforGeeks. Available at: https://www.geeksforgeeks.org/why-am-i-getting-a-filenotfounderror-in-python/ (Accessed: 23 April 2024). 
+<a id="48">[48]</a> Clontz, S. (2013) Mobydick.txt, Git Hub. Available at: https://gist.github.com/StevenClontz/4445774 (Accessed: 23 April 2024). 
 
-<a id="54">[54]</a> Built-in exceptions (no date) Python documentation. Available at: https://docs.python.org/3/library/exceptions.html (Accessed: 23 April 2024). 
+<a id="49">[49]</a> The absolute basics for beginners (no date) NumPy. Available at: https://numpy.org/doc/stable/user/absolute_beginners.html (Accessed: 23 April 2024). 
 
-<a id="55">[55]</a> Real Python (2023) The python return statement: Usage and best practices, Real Python. Available at: https://realpython.com/python-return-statement/#returning-none-explicitly (Accessed: 23 April 2024). 
+<a id="50">[50]</a> Pyplot tutorial (no date) Pyplot tutorial - Matplotlib 3.8.4 documentation. Available at: https://matplotlib.org/stable/tutorials/pyplot.html (Accessed: 23 April 2024). 
 
-<a id="56">[56]</a> McAleer, K. (2023) What does the python ‘if name Equals Main’ construct do?: Theserverside, TheServerSide.com. Available at: https://www.theserverside.com/tip/What-does-the-Python-if-name-equals-main-construct-do#:~:text=to%20the%20console.-,The%20if%20__name__%20%3D%3D%20%22__main__%22%3A,it%20would%20not%20execute%20automatically. (Accessed: 23 April 2024). 
+<a id="51">[51]</a> Numpy.random.seed# (no date) numpy.random.seed - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/random/generated/numpy.random.seed.html (Accessed: 23 April 2024). 
 
-<a id="57">[57]</a> Clontz, S. (2013) Mobydick.txt, Git Hub. Available at: https://gist.github.com/StevenClontz/4445774 (Accessed: 23 April 2024). 
+<a id="52">[52]</a> NumPy (no date) numpy.random.normal - NumPy v2.1.dev0 Manual. Available at: https://numpy.org/devdocs/reference/random/generated/numpy.random.normal.html (Accessed: 23 April 2024). 
 
-<a id="58">[58]</a> The absolute basics for beginners (no date) NumPy. Available at: https://numpy.org/doc/stable/user/absolute_beginners.html (Accessed: 23 April 2024). 
+<a id="53">[53]</a> W3Schools (no date) Matplotlib histograms. Available at: https://www.w3schools.com/python/matplotlib_histograms.asp (Accessed: 23 April 2024). 
 
-<a id="59">[59]</a> Pyplot tutorial (no date) Pyplot tutorial - Matplotlib 3.8.4 documentation. Available at: https://matplotlib.org/stable/tutorials/pyplot.html (Accessed: 23 April 2024). 
+<a id="54">[54]</a> Quick start guide (no date) Matplotlib 3.8.4 documentation. Available at: https://matplotlib.org/stable/users/explain/quick_start.html# (Accessed: 23 April 2024). 
 
-<a id="60">[60]</a> Numpy.random.seed# (no date) numpy.random.seed - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/random/generated/numpy.random.seed.html (Accessed: 23 April 2024). 
+<a id="55">[55]</a> Joris (2011) Secondary axis with twinx(): How to add to legend, Stack Overflow. Available at: https://stackoverflow.com/questions/5484922/secondary-axis-with-twinx-how-to-add-to-legend (Accessed: 23 April 2024). 
 
-<a id="61">[61]</a> NumPy (no date) Random sampling (numpy.random) - NumPy v1.26 Manual. Available at: https://numpy.org/doc/stable/reference/random/index.html (Accessed: 23 April 2024). 
+<a id="56">[56]</a> Legend and legend_handler (no date) Matplotlib 2.0.2 documentation. Available at: https://matplotlib.org/2.0.2/api/legend_api.html (Accessed: 23 April 2024). 
 
-<a id="62">[62]</a> NumPy (no date) numpy.random.normal - NumPy v2.1.dev0 Manual. Available at: https://numpy.org/devdocs/reference/random/generated/numpy.random.normal.html (Accessed: 23 April 2024). 
-
-<a id="63">[63]</a> W3Schools (no date) Matplotlib histograms. Available at: https://www.w3schools.com/python/matplotlib_histograms.asp (Accessed: 23 April 2024). 
-
-<a id="64">[64]</a> Quick start guide (no date) Matplotlib 3.8.4 documentation. Available at: https://matplotlib.org/stable/users/explain/quick_start.html# (Accessed: 23 April 2024). 
-
-<a id="65">[65]</a> Joris (2011) Secondary axis with twinx(): How to add to legend, Stack Overflow. Available at: https://stackoverflow.com/questions/5484922/secondary-axis-with-twinx-how-to-add-to-legend (Accessed: 23 April 2024). 
-
-<a id="66">[66]</a> Legend and legend_handler (no date) Matplotlib 2.0.2 documentation. Available at: https://matplotlib.org/2.0.2/api/legend_api.html (Accessed: 23 April 2024). 
-
-<a id="67">[67]</a> Matplotlib.axes.axes.tick_params (no date) Matplotlib 3.8.4 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.tick_params.html (Accessed: 23 April 2024). 
+<a id="57">[57]</a> Matplotlib.axes.axes.tick_params (no date) Matplotlib 3.8.4 documentation. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.tick_params.html (Accessed: 23 April 2024). 
