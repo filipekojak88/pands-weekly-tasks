@@ -15,7 +15,7 @@ np.random.seed(1)
 sample = np.random.normal(loc=5, scale=2, size=1000)
 
 # Plot the histogram of the samples on the primary y-axis (left)
-plt.hist(sample, bins=30, color='yellow', alpha=0.7, label="Normal Distribution (Left Y-Axis)")
+plt.hist(sample, bins=30, color='yellow', alpha=0.7, label="Normal Dist. (Y-left)")
 plt.title("Normal Distribution and Function Plot")
 plt.xlabel("Value")
 plt.ylabel("Frequency")
@@ -32,7 +32,7 @@ x_points = np.arange(0, 11)  # Using np.arange for better precision
 h_points = x_points ** 3
 
 # Plot the function h(x) = x^3 on the secondary y-axis (right)
-ax2.plot(x_points, h_points, color='blue', label="h(x) = x^3 (Right Y-Axis)")
+ax2.plot(x_points, h_points, color='blue', label="h(x) = x^3 (Y-right)")
 ax2.set_ylabel('h(x) Value')
 ax2.tick_params(axis='y', labelcolor='blue')
 
@@ -45,7 +45,7 @@ handles = handles1 + handles2
 labels = labels1 + labels2
 
 # Plot a single legend for both plots
-ax1.legend(handles, labels, loc='upper right')
+ax1.legend(handles, labels, loc='upper left')
 
 # Display the plot containing the histogram and the function plot
 plt.show()
