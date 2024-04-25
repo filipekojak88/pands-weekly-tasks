@@ -1,23 +1,28 @@
 # Program accounts.py
-# This programs reads in a 10 characters account number 
-# and outputs the account number with the last 4 digits displaying
-# and the first 6 digits replaced with Xs
-# author: Filipe Carvalho
+# This program reads in an account number of any length 
+# and outputs the account number with the last 4 digits displayed
+# and the initial digits replaced with Xs
+# Author: Filipe Carvalho
 
-# Fist Part:
-# accountNo = input('Please enter a 10 digit account number:')
-# accountString = str(accountNo)
-# partNo = accountString[6:10]
-# print ('XXXXXX'+partNo)
+# Prompt the user to enter their account number
+account_no = input('Please enter your account number:')
 
-# Extra: Modify the program to deal with account number of any length
-accountNo = input('Please enter your account number:')  # Removed the requirement for 10 to allow any number
-accountString = str(accountNo)                          # Transform the number into string
-noCharacters = len(accountString)                       # Measure how many characters are in the account
-noCharactersToChange = noCharacters - 4                 # Find how many characters will have to be changed to X
+# Convert the account number to a string
+account_string = str(account_no)
 
-partNo = accountString[noCharactersToChange:noCharacters]     # Isolate the 4 last digit
-partX = noCharactersToChange*'X'                              # From the number of characters that will have to be changed to X and multiply by X
-print (partX+partNo)                                          # Print the account with the part in X and the last four digits as number.
+# Determine the total number of characters in the account number
+no_characters = len(account_string)
+
+# Calculate the number of characters to replace with X (all except the last 4 digits)
+no_characters_change = no_characters - 4
+
+# Extract the last 4 digits of the account number
+part_no = account_string[no_characters_change:no_characters]
+
+# Create a string of X characters to replace the initial part of the account number
+part_x = no_characters_change * 'X'
+
+# Print the transformed account number with the initial part replaced by X and the last 4 digits unchanged
+print(part_x + part_no)
 
 # End of the program
