@@ -108,7 +108,7 @@ To further develop myself and prepare to dive into AI in the future, I started t
 
 <a id="2">[2]</a> Basic writing and formatting syntax (2024) GitHub Docs. Available at: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax (Accessed: 22 April 2024). 
 
-<a id="3">[3]</a> Hello, world! (no date) Learn Python - Free Interactive Python Tutorial. Available at: https://www.learnpython.org/en/Hello,_World! (Accessed: 22 April 2024). 
+<a id="3">[3]</a> Hello, world! (no date) Learn Python - Free Interactive Python Tutorial. Available at: https://www.learnpython.org/en/Hello,_World%21 (Accessed: 22 April 2024). 
 
 <a id="4">[4]</a> Nick  Parlante (2020) Print() and standard out, Computer Science. Available at: https://cs.stanford.edu/people/nick/py/python-print.html (Accessed: 22 April 2024). 
 
