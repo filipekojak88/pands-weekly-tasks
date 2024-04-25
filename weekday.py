@@ -1,4 +1,4 @@
-# weekday.py
+# Program: weekday.py
 # This program determines whether today is a weekday or weekend based on the current date.
 # Author: Filipe Carvalho
 

@@ -1,4 +1,4 @@
-# squareroot.py
+# Program: squareroot.py
 # This program reads in a positive number and approximates its square root using Newton's method.
 # Author: Filipe Carvalho
 

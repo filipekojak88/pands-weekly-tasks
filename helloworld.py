@@ -1,4 +1,4 @@
-# helloworld.py
+# Program: helloworld.py
 # This program demonstrates a simple Python script that prints "Hello World" when executed.
 # Author: Filipe Carvalho
 

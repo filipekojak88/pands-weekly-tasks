@@ -1,4 +1,4 @@
-# plottask.py
+# Program: plottask.py
 # This program generates and plots a histogram representing a normal distribution
 # with 1000 values (mean=5, standard deviation=2)
 # and also plots the function h(x) = x^3 over the range (0 to 10].
