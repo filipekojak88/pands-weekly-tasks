@@ -35,14 +35,13 @@ This accounts.py program is a Python script that mimics the security approach us
 In this program, users are prompted to input their account number, and the program displays the last four digits of the account number while replacing the other digits with X.
 The program workflow follows these steps: 
 
-<ol>
-<li>User is prompt to input their account number.</li>
-<li>The program converts the number into a string and counts the number of characters [[10]](#10) [[11]](#11).</li>
-<li>It calculates the number of characters that need to be convert to 'X' by subtracting 4 from the number of characters.</li>
-<li>It isolates the last 4 digits of the account number [[12]](#12).</li>
-<li>It converts all the characters except the last 4 to "X" [[13]](#13) [[14]](#14).</li>
-<li>Then it outputs the modified account number with all characters displaying X except for the last 4 digits, which are displayed as they appear in the account number [[15]](#15).</li>
-</ol>
+
+- User is prompt to input their account number.
+- The program converts the number into a string and counts the number of characters [[10]](#10) [[11]](#11).
+- It calculates the number of characters that need to be convert to 'X' by subtracting 4 from the number of characters.
+- It isolates the last 4 digits of the account number [[12]](#12).
+- It converts all the characters except the last 4 to "X" [[13]](#13) [[14]](#14).
+- Then it outputs the modified account number with all characters displaying X except for the last 4 digits, which are displayed as they appear in the account number [[15]](#15).
 
 This program also accepts an account number of any number of characters.
 
@@ -65,17 +64,16 @@ This program estimates the square root of a positive number using [Newton's meth
 ### Weekly Tasks 7: [es.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/es.py) 
 
 The program es.py counts the number of times that the letter 'e' (lowercase and uppercase) appears in a text file. It was set up so that the user provides the file name on the command-line. The program is designed with two functions count_e(file_name) and main():
-<ol>
-<li>The first one opens the file and reads it, counting and returning the total number of lowercase and uppercase 'e' found in the text file [[38]](#38) [[39]](#39) [[40]](#40). It checks to confirm that the provided file name exists, and if it does not, then an error message is provided, and the program terminates [[41]](#41) [[42]](#42) [[43]](#43).</li>
-<li>The second function works as an entry point. It verifies that a command-line argument was provided by the user and that the file has a '.txt' extension [[44]](#44) [[45]](#45). Any errors regarding these two verifications are fed back to the user through an error message, and program terminates [[46]](#46). If everything works well, then the count of 'e'(lowercase and uppercase) for the input file is output by the program [[47]](#47).</li> 
-</ol>
 
-Note: To test this program, the text file [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt) was added to pands-weekly-tasks, and a total of 59646 occurrences of the letter "e" were identified [[48]](#48).
+- The first one opens the file and reads it, counting and returning the total number of lowercase and uppercase 'e' found in the text file [[38]](#38) [[39]](#39) [[40]](#40). It checks to confirm that the provided file name exists, and if it does not, then an error message is provided, and the program terminates [[41]](#41) [[42]](#42) [[43]](#43).
+- The second function works as an entry point. It verifies that a command-line argument was provided by the user and that the file has a '.txt' extension [[44]](#44) [[45]](#45). Any errors regarding these two verifications are fed back to the user through an error message, and program terminates [[46]](#46). If everything works well, then the count of 'e'(lowercase and uppercase) for the input file is output by the program [[47]](#47).
+
+Note: To test this program, the text file [moby-dick.txt](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/moby-dick.txt) was added to pands-weekly-tasks, and a total of 59646 occurrences of the letter "e" were identified [[48]](#48) [[37]](#37).
 
 
 ### Weekly Tasks 8: [plottask.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/plottask.py)
 
-This program creates a bar graph (histogram) showing how often certain numbers pop up in a set of 1000 numbers that behave like a typical set of data with an average of 5 and some variety around that average [[49]](#49) [[50]](#50) [[51]](#51) [[52]](#52) [[53]](#53). Alongside this, it draws a curved line (h (x) = x^3 function) showing what happens when you take each number from 0 to 10, multiply it by itself three times, and plot the result [[54]](#54). The chart is also improved with two y-axis to provide a better visualization of the histogram and line plot on the same graph [[55]](#55). The legends for both plots are grouped into the same legend for a cleaner and more organized presentation [[56]](#56) [[57]](#57).
+This program creates a bar graph (histogram) showing how often certain numbers pop up in a set of 1000 numbers that behave like a typical set of data with an average of 5 and some variety around that average [[49]](#49) [[50]](#50) [[51]](#51) [[52]](#52) [[53]](#53). Alongside this, it draws a curved line (h (x) = x^3 function) showing what happens when you take each number from 0 to 10, multiply it by itself three times, and plot the result [[54]](#54). The chart is also improved with two y-axis to provide a better visualization of the histogram and line plot on the same graph [[55]](#55). The legends for both plots are grouped into the same legend for a cleaner and more organized presentation [[56]](#56) [[57]](#57) [[37]](#37).
 
 ## Use of these tasks
 
