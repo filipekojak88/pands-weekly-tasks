@@ -11,12 +11,13 @@ This README provides detailed descriptions of each weekly task completed during 
 
 ## Get Started
 
-To better understand the tasks, have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimpse of what the task is about, you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.
+To better understand the tasks, have a look at the section About These Tasks below and start by reading through each one of the Weekly Tasks in numerical order. Once you have a glimpse of what the task is about, you can either go to a specific program to undestand the steps adopted to build up the script by reading through the comments provided or you can run the program in a Python interpreter and have fun by testing them out.     
+
+Note: The numbers provided at end of the sentences are in-text citations linking to the appropriate material referenced during the completion of the task.
 
 ## About These Tasks
 
 There were 8 tasks that were completed throughout the Programming and Scripting course and the details of each task is described under the headings below.
-
 
 ### Weekly Tasks 1: [helloworld.py](https://github.com/filipekojak88/pands-weekly-tasks/blob/main/helloworld.py)
 
